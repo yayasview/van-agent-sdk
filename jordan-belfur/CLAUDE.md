@@ -57,6 +57,7 @@ Read and execute skills from the `skills/` directory. Current skills:
 ## Tools
 
 - **HubSpot** (via MCP) — Read and write access to deals, contacts, and companies. Always confirm before writing.
+- **Granola** (via MCP) — Read-only access to meeting notes and transcripts via OAuth. Use to pull call notes for deal updates instead of requiring manual input.
 - **Clay** (via API) — Data enrichment for accounts and contacts. Read-only.
 
 ## Memory
