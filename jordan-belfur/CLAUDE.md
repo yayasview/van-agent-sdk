@@ -54,13 +54,38 @@ Read and execute skills from the `skills/` directory. Current skills:
 |-------|---------|-------------|
 | `update-deal` | "update [deal/account]", "log these notes", "here's what happened on the call" | Takes call notes, emails, or meeting summaries and produces structured HubSpot deal record updates |
 | `fetch-doc` | "pull the doc", "grab the brief", "get the spreadsheet", "find the proposal" | Fetches content from Google Drive, Docs, or Sheets via gogcli for reference in deal workflows |
+| `build-proposal` | "create a proposal", "build the project plan", "draft the proposal for [client]" | End-to-end proposal creation: pulls meeting notes from Granola, fetches sitemap, builds project plan sheet (pages inventory + sprint schedule + costs) and client-facing proposal doc. Uses templates from `templates/proposals/`. |
 
 ## Tools
 
 - **HubSpot** (via MCP) — Read and write access to deals, contacts, and companies. Always confirm before writing.
 - **Granola** (via MCP) — Read-only access to meeting notes and transcripts via OAuth. Use to pull call notes for deal updates instead of requiring manual input.
-- **gogcli** (via CLI) — Google Workspace access (Drive, Docs, Sheets). Authorized as `y@vezadigital.com`. Use to fetch proposals, briefs, spreadsheets, and templates. Read/write for Docs and Sheets.
+- **gogcli** (via CLI) — Google Workspace access (Drive, Docs, Sheets). Authorized as `y@vezadigital.com`. Use to fetch proposals, briefs, spreadsheets, and templates. Read/write for Docs and Sheets. See `gogcli` section below for usage notes.
 - **Clay** (via API) — Data enrichment for accounts and contacts. Read-only.
+
+## gogcli Usage Notes
+
+The CLI command is `gog` (not `gogcli`). Always prefix commands with `GOG_KEYRING_PASSWORD="dummy"`.
+
+**Key commands:**
+- `gog drive search "query"` — find files in Drive
+- `gog sheets create "Title"` — create a new spreadsheet
+- `gog sheets metadata <id>` — get sheet tab names and sizes
+- `gog sheets get <id> "TabName!A1:Z50"` — read cell values
+- `gog sheets update <id> "TabName!A1:Z50" --values-json '[...]' -y` — write data
+- `gog sheets format <id> "TabName!A1:Z50" --format-json '...' --format-fields "..." -y` — apply formatting
+- `gog docs create "Title"` — create a new Google Doc
+- `gog docs write <id> --file /tmp/content.md --replace --markdown -y` — write markdown to Doc with formatting
+- `gog docs cat <id>` — read a Google Doc as plain text
+
+**Critical formatting rule:** When using `gog sheets format`, the `--format-fields` mask determines which fields get written. If the mask includes `backgroundColor` but the JSON doesn't specify it, the background resets to black (default). **Always include explicit values for every field in your mask.** Example: to bold text on a white background, include BOTH `backgroundColor` (white) and `textFormat` (bold, black foreground) in the JSON.
+
+**Auth:** If auth expires mid-session, re-auth with:
+```bash
+GOG_KEYRING_PASSWORD="dummy" gog auth add y@vezadigital.com --services sheets
+```
+
+**Tab names:** `gog` cannot create or rename tabs. If the user has manually reorganized tabs, always run `gog sheets metadata <id>` first to confirm current tab names before formatting.
 
 ## Memory
 
