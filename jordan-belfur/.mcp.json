@@ -3,6 +3,10 @@
     "hubspot": {
       "type": "url",
       "url": "https://mcp.hubspot.com/anthropic"
+    },
+    "granola": {
+      "type": "url",
+      "url": "https://mcp.granola.ai/mcp"
     }
   }
 }
