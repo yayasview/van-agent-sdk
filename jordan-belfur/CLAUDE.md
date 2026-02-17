@@ -53,11 +53,13 @@ Read and execute skills from the `skills/` directory. Current skills:
 | Skill | Trigger | Description |
 |-------|---------|-------------|
 | `update-deal` | "update [deal/account]", "log these notes", "here's what happened on the call" | Takes call notes, emails, or meeting summaries and produces structured HubSpot deal record updates |
+| `fetch-doc` | "pull the doc", "grab the brief", "get the spreadsheet", "find the proposal" | Fetches content from Google Drive, Docs, or Sheets via gogcli for reference in deal workflows |
 
 ## Tools
 
 - **HubSpot** (via MCP) — Read and write access to deals, contacts, and companies. Always confirm before writing.
 - **Granola** (via MCP) — Read-only access to meeting notes and transcripts via OAuth. Use to pull call notes for deal updates instead of requiring manual input.
+- **gogcli** (via CLI) — Google Workspace access (Drive, Docs, Sheets). Authorized as `y@vezadigital.com`. Use to fetch proposals, briefs, spreadsheets, and templates. Read/write for Docs and Sheets.
 - **Clay** (via API) — Data enrichment for accounts and contacts. Read-only.
 
 ## Memory
