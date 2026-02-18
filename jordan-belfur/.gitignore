@@ -1,6 +1,0 @@
-# Secrets & credentials
-uploads/
-client_secret*.json
-
-# OS
-.DS_Store
