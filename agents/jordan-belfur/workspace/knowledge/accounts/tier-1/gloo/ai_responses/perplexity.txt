@@ -1,0 +1,25 @@
+**Gloo is a technology platform that connects the faith ecosystem, providing tools, values-aligned AI, content, resources, and services to help churches, ministries, nonprofits, pastors, publishers, developers, donors, and individuals amplify their impact and foster community flourishing.[1][2][3][5]**
+
+### What They Do
+Gloo offers a comprehensive suite of solutions, including:
+- **Values-aligned AI tools** like customizable AI chat for teams (Ask), content licensing for revenue generation, and enterprise solutions for secure, scalable engagement.[1]
+- Free tools such as messaging, texting services, curated content, and resource access for faith leaders (CFLs).[5]
+- Ministry engagement platforms, distribution channels, insights, and partnerships (e.g., investment in Servant consultancy for growth and digital transformation).[2][3]
+Founded in 2013 and headquartered in Boulder, Colorado, with a remote-first model and hubs in Pittsburgh, Orlando, and San Francisco, Gloo went public in November 2025 as Gloo Holdings (GLOO).[2][4]
+
+### Who They Serve
+Gloo primarily serves the **faith ecosystem**, including over 100,000 leaders from churches, parachurches, ministries, nonprofits, and mission-based enterprises—often described as "those who serve."[2][3][5] This extends to pastors, publishers, developers, donors, and individuals seeking to enhance relational and communal impact.[2]
+
+### What Makes Them Different
+Gloo stands out for **leading the development of values-aligned AI**, emphasizing open, trusted, transparent, and fair technology that promotes human flourishing rather than generic adoption—through industry collaborations and custom solutions that reflect users' mission and voice.[1] Unlike standard tech platforms, it integrates AI with ministry tools and free resources to release the "collective strength" of the faith ecosystem, enabling scalable growth while maintaining content ownership and ethical alignment.[1][2]
+
+### What They Are Known For
+Gloo is recognized as the **leading technology platform for the faith ecosystem**, particularly for pioneering values-aligned AI, providing digital tools/services for Christian organizations, and recent milestones like its 2025 IPO (deal size $73M at $8/share) and strategic investments in consultancies like Servant.[1][3][4]
+
+### What Customers Say
+Search results highlight positive outcomes from Gloo's AI tools, including:
+- Reduced response times from 30+ minutes to 5 minutes.
+- Consistent voice across teams and campuses.
+- Hours saved weekly for ministry and communications staff.
+- Improved engagement from members resonating with messaging.
+- AI applications like context-aware assistants, tone selectors, support query reduction, and content visibility.[1]

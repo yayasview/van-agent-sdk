@@ -1,0 +1,16 @@
+**Hiya is a Seattle-based software company that provides a Voice Intelligence Platform specializing in voice security, caller ID, spam and fraud call protection, and branded calling solutions to enhance trust and productivity in telecommunications.**
+
+### What They Do
+Hiya offers cloud-based SaaS products like **Hiya Protect** (network-based spam and fraud blocking with adaptive AI and deepfake detection) and **Hiya Connect** (branded calling to improve business-customer connections and answer rates).[1][2][5] Their platform powers caller reputation, AI call screening, automated note-taking, and voice AI agents for enterprises, while securing networks against malicious calls.[2][5] Recent innovations include the Hiya AI Phone app for consumers and acquisitions like Loccus.ai for deepfake protection.[2][4]
+
+### Who They Serve
+Hiya serves **carriers** (e.g., AT&T Call Protect, Rogers, BT, EE, O2, Telenor Norway, Liberty Latin America, Virgin Media O2), **device manufacturers** (e.g., Samsung Smart Call on Galaxy devices), **enterprises** (e.g., FICO for banking, Salesforce users), and **over 500 million end-users** worldwide through apps and integrations.[1][2][3][5] They operate in 40+ countries with offices in Seattle, London, and Budapest.[2][4]
+
+### What Makes Them Different
+Hiya differentiates through its **scalable, AI-driven SaaS model** with direct integrations into global carriers and devices, a massive caller database, and innovations like the first network-based spam blocker (2016) and adaptive AI fraud detection.[1][2][3] Unlike basic caller ID apps, they focus on enterprise-grade branded calls, real-time deepfake detection, and productivity tools like AI agents, powering services for 500M+ users since spinning off from Whitepages in 2016.[1][2][3]
+
+### What They Are Known For
+Hiya is renowned for **leading voice security and spam protection**, with partnerships like Samsung (extended to 2025) and AT&T, rapid global expansion, and awards like #1 Best Startup Employer by Forbes.[1][2][3] They're recognized for pioneering mobile caller ID apps, Hiya Cloud, and recent AI advancements like Hiya AI Phone.[2][4]
+
+### What Customers Say
+Customers praise Hiya for **boosting answer rates, branding legitimacy, and sales efficiency**. Examples include: "Hiya has played a key part in branding our members successfully so prospects know who is reaching out" (Connor M., Salesforce Admin, mid-market); "It provides my team qualified customers that are excited to speak with the brand" (Holden O., VP Global Sales Ops, enterprise).[5]

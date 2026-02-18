@@ -1,0 +1,296 @@
+{
+  "company_name": "Rootly",
+  "domain": "rootly.com",
+  "tier": "2",
+  "segment": "Mid-Market",
+  "industry": "Software Development",
+  "description": "AI-native on-call and incident response.\n\nModern Slack and MS Teams native incident management—from your first alert to retrospective.\n\nTrusted by 100s of leading companies including NVIDIA, Squarespace, Canva, Grammarly, Elastic, Tripadvisor, and Figma.\n\nSee why they rate us 5 stars on G2: https://www.g2.com/products/rootly-manage-incidents-on-slack/reviews",
+  "employee_count": 64,
+  "linkedin_url": "https://www.linkedin.com/company/rootlyhq",
+  "funding": {
+    "total_raised": 12000000,
+    "last_round_type": "Series A",
+    "last_round_amount": 12000000,
+    "last_round_date": "August 10, 2023",
+    "investors": "Renegade Partners, with participation from Google Gradient Ventures and XYZ Ventures",
+    "raw": "Rootly announced a $12 million Series A funding round on August 10, 2023, led by Renegade Partners, with participation from Google Gradient Ventures and XYZ Ventures. This brings the company's total funding to $15.2 million. The funds will be used to accelerate product roadmap, increase global engineering presence, and invest in sales and marketing."
+  },
+  "traffic": {
+    "monthly_visitors": 49282,
+    "top_page": "rootly.com",
+    "top_page_traffic": 12532,
+    "top_page_organic": 1632
+  },
+  "technical": {
+    "performance_score": 50,
+    "seo_score": 100,
+    "accessibility_score": 87,
+    "first_contentful_paint": "2.0 s",
+    "largest_contentful_paint": "3.8 s",
+    "ab_testing": false
+  },
+  "webflow": {
+    "uses_webflow": true,
+    "users": 15,
+    "projects": 2
+  },
+  "recent_news": "In 2025, Rootly received significant recognition, including a top-10 placement in Deloitte's 2025 Technology Fast 50 program for its rapid growth and innovation. The company also unveiled its \"2025’s Top 50 People Making the World More Reliable\" list, highlighting key individuals in the industry. Rootly launched Rootly AI Labs, a community initiative aimed at advancing reliability engineering through innovation and research, and enhanced its incident management capabilities by making its API AI-Agent-First.",
+  "buying_committee": {
+    "economic_buyer": {
+      "name": "Adam Frank",
+      "first_name": "Adam",
+      "last_name": "Frank",
+      "title": "Vice President Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "rootly.com",
+      "linkedin_url": "https://www.linkedin.com/in/adambfrank",
+      "start_date": "2025-01-01T00:00:00.000Z",
+      "days_in_role": 392,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity is visible on the provided LinkedIn profile.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    "champions": [],
+    "blockers": [
+      {
+        "name": "James Wilson",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "title": "Director of Channel and Partnerships",
+        "org": "",
+        "company_name": "",
+        "domain": "rootly.com",
+        "linkedin_url": "https://www.linkedin.com/in/james-wilson-technologystrategist/",
+        "start_date": "2025-11-01T00:00:00.000Z",
+        "days_in_role": 88,
+        "started_last_3mo": true,
+        "started_last_6mo": true,
+        "buyer_type": "blocker_influencer",
+        "buyer_type_label": "Blocker / Influencer",
+        "role_context": {
+          "phase": "first_90_days",
+          "label": "First 90 Days",
+          "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+          "outreach_angle": "Help them deliver early wins that build credibility"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "The provided LinkedIn profile URL could not be accessed or validated. No recent public activity could be retrieved.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ],
+    "all_contacts": [
+      {
+        "name": "Adam Frank",
+        "first_name": "Adam",
+        "last_name": "Frank",
+        "title": "Vice President Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "rootly.com",
+        "linkedin_url": "https://www.linkedin.com/in/adambfrank",
+        "start_date": "2025-01-01T00:00:00.000Z",
+        "days_in_role": 392,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public activity is visible on the provided LinkedIn profile.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "James Wilson",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "title": "Director of Channel and Partnerships",
+        "org": "",
+        "company_name": "",
+        "domain": "rootly.com",
+        "linkedin_url": "https://www.linkedin.com/in/james-wilson-technologystrategist/",
+        "start_date": "2025-11-01T00:00:00.000Z",
+        "days_in_role": 88,
+        "started_last_3mo": true,
+        "started_last_6mo": true,
+        "buyer_type": "blocker_influencer",
+        "buyer_type_label": "Blocker / Influencer",
+        "role_context": {
+          "phase": "first_90_days",
+          "label": "First 90 Days",
+          "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+          "outreach_angle": "Help them deliver early wins that build credibility"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "The provided LinkedIn profile URL could not be accessed or validated. No recent public activity could be retrieved.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "JJ Tang",
+        "first_name": "JJ",
+        "last_name": "Tang",
+        "title": "CEO and Co-founder (YC S21)",
+        "org": "",
+        "company_name": "",
+        "domain": "rootly.com",
+        "linkedin_url": "https://www.linkedin.com/in/jjrichardtang",
+        "start_date": "2021-01-01T00:00:00.000Z",
+        "days_in_role": 1853,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "unknown",
+        "buyer_type_label": "Unknown",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "JJ Tang's recent activity shows engagement with topics concerning AI in operations and incident management, platform engineering migrations (Spotify for Backstage to Cortex), and the strategic value of customer support for product expertise. The visible activity suggests a strong interest in modern software development, SRE, and operational efficiency. Note that full profile activity is not publicly accessible.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ]
+  },
+  "analysis": {
+    "opportunity_signals": [
+      {
+        "signal": "Existing Webflow User",
+        "detail": "2 projects, 15 users currently active",
+        "implication": "Already bought into Webflow—conversation is about expansion and optimization, not platform justification",
+        "strength": "strong"
+      },
+      {
+        "signal": "Active Company Momentum",
+        "detail": "Product launch: Rootly AI Labs",
+        "implication": "Company is actively growing and investing—web presence needs to keep pace with business growth",
+        "strength": "moderate"
+      }
+    ],
+    "risk_factors": [
+      {
+        "risk": "Tenured Economic Buyer",
+        "detail": "Adam Frank has been in role 1+ years",
+        "mitigation": "May be invested in status quo—lead with champion, use executive as validation"
+      },
+      {
+        "risk": "Existing Webflow Performance Issues",
+        "detail": "Already on Webflow but 50/100 performance",
+        "mitigation": "Position as optimization partner, not migration—may have had bad agency experience"
+      },
+      {
+        "risk": "Limited LinkedIn Intelligence",
+        "detail": "No recent LinkedIn activity available for contacts",
+        "mitigation": "Rely on company-level signals and role-based pain hypotheses for personalization"
+      }
+    ],
+    "van_fit_score": 40,
+    "van_fit_rationale": [
+      "Existing Webflow investment aligns directly with VAN core expertise"
+    ],
+    "primary_pain_points": [
+      {
+        "persona": "Adam Frank",
+        "role": "Vice President Marketing",
+        "tenure": "Tenured (1+ years)",
+        "hypothesis": "Adam likely needs to move faster on digital initiatives but is constrained by platform or resources",
+        "evidence": [
+          "Role: Vice President Marketing"
+        ],
+        "van_solution": "VAN provides execution capacity and platform expertise to accelerate digital initiatives"
+      }
+    ],
+    "recommended_entry": {
+      "contact": {
+        "name": "Adam Frank",
+        "first_name": "Adam",
+        "last_name": "Frank",
+        "title": "Vice President Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "rootly.com",
+        "linkedin_url": "https://www.linkedin.com/in/adambfrank",
+        "start_date": "2025-01-01T00:00:00.000Z",
+        "days_in_role": 392,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public activity is visible on the provided LinkedIn profile.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      "rationale": "Adam has budget authority—but as a tenured leader, lead with insight not pitch",
+      "approach": "executive_insight",
+      "risk": "May be invested in current approach—need strong POV to break through"
+    },
+    "recommended_sequence": [
+      {
+        "step": 1,
+        "action": "Engage Adam Frank",
+        "target": {
+          "name": "Adam Frank",
+          "first_name": "Adam",
+          "last_name": "Frank",
+          "title": "Vice President Marketing",
+          "org": "",
+          "company_name": "",
+          "domain": "rootly.com",
+          "linkedin_url": "https://www.linkedin.com/in/adambfrank",
+          "start_date": "2025-01-01T00:00:00.000Z",
+          "days_in_role": 392,
+          "started_last_3mo": false,
+          "started_last_6mo": false,
+          "buyer_type": "economic_buyer",
+          "buyer_type_label": "Economic Buyer",
+          "role_context": {
+            "phase": "established",
+            "label": "Tenured (1+ years)",
+            "implication": "Owns current state—may defend it or be ready for change",
+            "outreach_angle": "Challenge status quo with new possibilities"
+          },
+          "linkedin_activity": "",
+          "linkedin_summary": "No recent public activity is visible on the provided LinkedIn profile.",
+          "tier_1_criteria": false,
+          "tier_2_criteria": false
+        },
+        "channel": "LinkedIn connection + personalized note",
+        "angle": "Challenge status quo with new possibilities",
+        "goal": "Validate pain hypothesis, establish credibility"
+      }
+    ],
+    "why_now": "Recent news shows active company momentum (product launches, partnerships)—web presence needs to keep pace with business growth. They're early in their Webflow journey (2 projects)—now is the time to establish VAN as their go-to Webflow partner before they build internal muscle or find another agency.",
+    "why_van": "VAN's deep Webflow expertise is directly relevant—they're already invested in the platform and need a partner who can help them maximize that investment. VAN's performance optimization capabilities directly address their 50/100 score—we can quantify the conversion impact and deliver measurable improvement."
+  },
+  "research_gaps": [
+    "No LinkedIn activity data available—limits personalization for outreach"
+  ],
+  "generated_at": "2026-01-28T23:31:27.497Z"
+}

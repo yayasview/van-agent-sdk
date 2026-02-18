@@ -1,0 +1,7 @@
+Homepage Headline: The observability stack for Physical AI.
+Homepage Subheadline: Foxglove is a purpose-built platform for robotics teams to collect, analyze, and learn from the vast quantities of multimodal data required to build, train, deploy, and operate reliable robots.
+Company Description: Robots are completely transforming the way we live and work—across industries and around the world. While web developers can draw from a rich ecosystem of libraries and tools to accelerate their work, many robotics engineers are still solving the same problems over and over in parallel.
+Offering Description: Visualize, debug, and manage all your multimodal data in one purpose-built robotics and physical AI development platform.
+Target Audience: Robotics and physical AI companies use Foxglove to build reliable autonomy and accelerate their development.
+Differentiators: While web developers can draw from a rich ecosystem of libraries and tools to accelerate their work, many robotics engineers are still solving the same problems over and over in parallel. We created Foxglove to close this gap and bring robotics into the 21st century.
+Tagline: Understand how your robots sense, think, and act.

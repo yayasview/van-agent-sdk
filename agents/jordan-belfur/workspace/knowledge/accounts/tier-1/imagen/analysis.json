@@ -1,0 +1,52 @@
+{
+  "company_name": "Imagen",
+  "website_url": "imagen.ai",
+  "industry": "",
+  "overall_score": 72.22222222222223,
+  "risk_level": "Medium",
+  "platform_scores": {
+    "chatgpt": 61.111111111111114,
+    "perplexity": 100.0,
+    "gemini": 55.55555555555556
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 2,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 3,
+      "target_audience": 3,
+      "key_products": 3,
+      "differentiators": 3,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 2,
+      "differentiators": 1,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    }
+  },
+  "key_gaps": [
+    "Key differentiators not captured",
+    "Target audience not mentioned",
+    "Core offering not well captured"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content",
+    "Increase brand mentions on third-party sources (G2, Reddit, industry publications)"
+  ],
+  "generated_at": "2026-01-30T17:19:49.120854"
+}

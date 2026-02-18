@@ -1,0 +1,431 @@
+{
+  "company_name": "EventsAir",
+  "domain": "eventsair.com",
+  "tier": "2",
+  "segment": "Growth",
+  "industry": "Software Development",
+  "description": "For over 30 years, EventsAir has been developing innovative software solutions and services for the event management industry, creating one of the most comprehensive event management platforms that is trusted by event professionals around the world. \n\nDesigned by event planners for event planners, the EventsAir platform gives you the ability to manage your event, conference, meeting or function with ease. From the most important task to the smallest detail, every aspect is covered, including; Communications, Event Websites, Registrations, Travel & Accommodation, Onsite Tools, Mobile Attendee Apps, Speaker, Exhibitor and Sponsor Management, to Budgeting and Reporting. Built on the highly secure and scalable Microsoft Azure cloud-based platform, you have total control of your event anywhere anytime in real time across all devices.\n\nTrevor Gardiner developed EventsAir to empower the event architect in you. “You are equipped with all the tools you will need to manage any event all in one place. Our platform has been designed with a security first methodology and offers PCI compliance plus a GDPR toolkit to assist with setting your data protection regulations”.\n\nEventsAir has been used by professional conference organizers and event planners around the world supporting medium to large scale events including Industry Associations, Corporate Events, Government Conferences, University faculties, plus a range of global events - Olympics, G20, APEC, Rugby World Cup, Commonwealth Games and many more.",
+  "employee_count": 134,
+  "linkedin_url": "https://www.linkedin.com/company/eventsair",
+  "funding": {
+    "total_raised": 1,
+    "last_round_type": "",
+    "last_round_amount": 1,
+    "last_round_date": "April 1, 2022",
+    "investors": "",
+    "raw": "The Riverside Company made a private equity investment in EventsAIR on April 1, 2022, to support its international expansion and product development. Trevor Gardiner, EventsAIR's founder, and Matthew Donegan-Ryan, the new CEO, were partners in this investment. The specific amount raised and total funding to date are not disclosed."
+  },
+  "traffic": {
+    "monthly_visitors": 674224,
+    "top_page": "eage.eventsair.com/8th-asia-pacific-meeting-on-near-surface-geoscience-engineering/abstract-submission-and-instructions",
+    "top_page_traffic": 15639,
+    "top_page_organic": null
+  },
+  "technical": {
+    "performance_score": 93,
+    "seo_score": 92,
+    "accessibility_score": 87,
+    "first_contentful_paint": "1.1 s",
+    "largest_contentful_paint": "1.5 s",
+    "ab_testing": true
+  },
+  "webflow": {
+    "uses_webflow": false,
+    "users": 3,
+    "projects": 2
+  },
+  "recent_news": "In 2025, EventsAir focused on significant product innovation and platform enhancements, including a redesigned attendee app, the launch of EventsAir Academy, Attendee Verification, Comms Coach (an AI assistant), an updated Payments ecosystem, a Modern Website Builder, Registration Recovery tools, and an expanded Integration marketplace. These advancements aimed to streamline event management and enhance attendee engagement. The company also hosted its global AirTime 2025 event across North America, Brussels, and Melbourne, previewing future developments like AI-powered features and next-generation registration journeys planned for 2026. While the company engaged globally through its AirTime events, no specific announcements regarding expansion into new geographical markets were found. Information regarding fundraising, leadership changes, or industry awards was not present in the provided results.",
+  "buying_committee": {
+    "economic_buyer": {
+      "name": "Charlotte Cailleaux",
+      "first_name": "Charlotte",
+      "last_name": "Cailleaux",
+      "title": "Head of Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "eventsair.com",
+      "linkedin_url": "https://www.linkedin.com/in/charlotte-cailleaux",
+      "start_date": "2025-03-01T00:00:00.000Z",
+      "days_in_role": 333,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "first_year",
+        "label": "First Year",
+        "implication": "Established foundation, now scaling what works",
+        "outreach_angle": "Help them accelerate proven initiatives"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public posts, articles, or activities were found on Charlotte Cailleaux's LinkedIn profile. The available information focuses on her licenses, certifications, and past awards.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    "champions": [
+      {
+        "name": "Alex Urquhart",
+        "first_name": "Alex",
+        "last_name": "Urquhart",
+        "title": "Growth Marketing Manager",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/alex-h-urquhart",
+        "start_date": "2025-02-01T00:00:00.000Z",
+        "days_in_role": 361,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public activity was found on Alex Urquhart's LinkedIn profile. The available information pertains to licenses, certifications, and volunteer experience.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ],
+    "blockers": [],
+    "all_contacts": [
+      {
+        "name": "Charlotte Cailleaux",
+        "first_name": "Charlotte",
+        "last_name": "Cailleaux",
+        "title": "Head of Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/charlotte-cailleaux",
+        "start_date": "2025-03-01T00:00:00.000Z",
+        "days_in_role": 333,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public posts, articles, or activities were found on Charlotte Cailleaux's LinkedIn profile. The available information focuses on her licenses, certifications, and past awards.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Laura Jordan",
+        "first_name": "Laura",
+        "last_name": "Jordan",
+        "title": "Chief Revenue Officer (CRO)",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/laura-r-butler",
+        "start_date": "2024-10-01T00:00:00.000Z",
+        "days_in_role": 484,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "Laura Jordan's recent activity indicates engagement with posts concerning leadership appointments, strategic partnerships, and discussions on event marketing and industry trends. This suggests an interest in company news, business development, and professional insights within her industry.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Kelly Harvey",
+        "first_name": "Kelly",
+        "last_name": "Harvey",
+        "title": "Chief Marketing Officer",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/kellynewbery/",
+        "start_date": "2023-01-01T00:00:00.000Z",
+        "days_in_role": 1123,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public activity found.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Alex Urquhart",
+        "first_name": "Alex",
+        "last_name": "Urquhart",
+        "title": "Growth Marketing Manager",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/alex-h-urquhart",
+        "start_date": "2025-02-01T00:00:00.000Z",
+        "days_in_role": 361,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public activity was found on Alex Urquhart's LinkedIn profile. The available information pertains to licenses, certifications, and volunteer experience.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Renee Elliott",
+        "first_name": "Renee",
+        "last_name": "Elliott",
+        "title": "Vice President of Product",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/renee-elliott-00313446/",
+        "start_date": "2025-09-01T00:00:00.000Z",
+        "days_in_role": 149,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "unknown",
+        "buyer_type_label": "Unknown",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "Renee Elliott has been actively sharing updates from aviation and travel-tech events, highlighting speaking roles, conference involvement, and thought leadership around EventsAir. The activity pattern indicates a focus on community engagement, partnerships, and event technology innovations.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Paul Trappett",
+        "first_name": "Paul",
+        "last_name": "Trappett",
+        "title": "Chief Executive Officer",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/paultrappett",
+        "start_date": "2025-07-01T00:00:00.000Z",
+        "days_in_role": 211,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "unknown",
+        "buyer_type_label": "Unknown",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "Paul Trappett has been appointed CEO of EventsAir, aiming to simplify event delivery for professionals. While most of his direct LinkedIn activity is not publicly visible, he recently shared a post about extensive customer travel and participation in AirTime 2025.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ]
+  },
+  "analysis": {
+    "opportunity_signals": [
+      {
+        "signal": "Active Company Momentum",
+        "detail": "Geographic or market expansion activity; Industry recognition/awards",
+        "implication": "Company is actively growing and investing—web presence needs to keep pace with business growth",
+        "strength": "moderate"
+      },
+      {
+        "signal": "Marketing Team Depth",
+        "detail": "3 marketing stakeholders identified",
+        "implication": "Team size suggests capacity for agency engagement and multiple potential champions",
+        "strength": "moderate"
+      }
+    ],
+    "risk_factors": [
+      {
+        "risk": "Tenured Economic Buyer",
+        "detail": "Laura Jordan has been in role 1+ years",
+        "mitigation": "May be invested in status quo—lead with champion, use executive as validation"
+      },
+      {
+        "risk": "Limited LinkedIn Intelligence",
+        "detail": "No recent LinkedIn activity available for contacts",
+        "mitigation": "Rely on company-level signals and role-based pain hypotheses for personalization"
+      }
+    ],
+    "van_fit_score": 20,
+    "van_fit_rationale": [],
+    "primary_pain_points": [
+      {
+        "persona": "Charlotte Cailleaux",
+        "role": "Head of Marketing",
+        "tenure": "First Year",
+        "hypothesis": "Charlotte likely needs to move faster on digital initiatives but is constrained by platform or resources",
+        "evidence": [
+          "Role: Head of Marketing"
+        ],
+        "van_solution": "VAN provides execution capacity and platform expertise to accelerate digital initiatives"
+      },
+      {
+        "persona": "Laura Jordan",
+        "role": "Chief Revenue Officer (CRO)",
+        "tenure": "Tenured (1+ years)",
+        "hypothesis": "Laura owns pipeline and revenue targets—any friction in the buyer journey directly impacts their numbers",
+        "evidence": [
+          "Role: Chief Revenue Officer (CRO)"
+        ],
+        "van_solution": "VAN performance optimization directly impacts pipeline conversion—quantifiable ROI story"
+      },
+      {
+        "persona": "Kelly Harvey",
+        "role": "Chief Marketing Officer",
+        "tenure": "Tenured (1+ years)",
+        "hypothesis": "Kelly is balancing growth targets with budget constraints—looking for partners who can prove ROI",
+        "evidence": [
+          "Role: Chief Marketing Officer",
+          "Tenure: Tenured (1+ years)"
+        ],
+        "van_solution": "VAN provides executive-level partnership with clear metrics and accountability"
+      },
+      {
+        "persona": "Alex Urquhart",
+        "role": "Growth Marketing Manager",
+        "tenure": "First Year",
+        "hypothesis": "Alex likely needs to move faster on digital initiatives but is constrained by platform or resources",
+        "evidence": [
+          "Role: Growth Marketing Manager"
+        ],
+        "van_solution": "VAN provides execution capacity and platform expertise to accelerate digital initiatives"
+      }
+    ],
+    "recommended_entry": {
+      "contact": {
+        "name": "Charlotte Cailleaux",
+        "first_name": "Charlotte",
+        "last_name": "Cailleaux",
+        "title": "Head of Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "eventsair.com",
+        "linkedin_url": "https://www.linkedin.com/in/charlotte-cailleaux",
+        "start_date": "2025-03-01T00:00:00.000Z",
+        "days_in_role": 333,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "No recent public posts, articles, or activities were found on Charlotte Cailleaux's LinkedIn profile. The available information focuses on her licenses, certifications, and past awards.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      "rationale": "Charlotte has budget authority—but as a tenured leader, lead with insight not pitch",
+      "approach": "executive_insight",
+      "risk": "May be invested in current approach—need strong POV to break through"
+    },
+    "recommended_sequence": [
+      {
+        "step": 1,
+        "action": "Engage Charlotte Cailleaux",
+        "target": {
+          "name": "Charlotte Cailleaux",
+          "first_name": "Charlotte",
+          "last_name": "Cailleaux",
+          "title": "Head of Marketing",
+          "org": "",
+          "company_name": "",
+          "domain": "eventsair.com",
+          "linkedin_url": "https://www.linkedin.com/in/charlotte-cailleaux",
+          "start_date": "2025-03-01T00:00:00.000Z",
+          "days_in_role": 333,
+          "started_last_3mo": false,
+          "started_last_6mo": false,
+          "buyer_type": "economic_buyer",
+          "buyer_type_label": "Economic Buyer",
+          "role_context": {
+            "phase": "first_year",
+            "label": "First Year",
+            "implication": "Established foundation, now scaling what works",
+            "outreach_angle": "Help them accelerate proven initiatives"
+          },
+          "linkedin_activity": "",
+          "linkedin_summary": "No recent public posts, articles, or activities were found on Charlotte Cailleaux's LinkedIn profile. The available information focuses on her licenses, certifications, and past awards.",
+          "tier_1_criteria": false,
+          "tier_2_criteria": false
+        },
+        "channel": "LinkedIn connection + personalized note",
+        "angle": "Help them accelerate proven initiatives",
+        "goal": "Validate pain hypothesis, establish credibility"
+      },
+      {
+        "step": 2,
+        "action": "Parallel-path with Alex Urquhart",
+        "target": {
+          "name": "Alex Urquhart",
+          "first_name": "Alex",
+          "last_name": "Urquhart",
+          "title": "Growth Marketing Manager",
+          "org": "",
+          "company_name": "",
+          "domain": "eventsair.com",
+          "linkedin_url": "https://www.linkedin.com/in/alex-h-urquhart",
+          "start_date": "2025-02-01T00:00:00.000Z",
+          "days_in_role": 361,
+          "started_last_3mo": false,
+          "started_last_6mo": false,
+          "buyer_type": "champion_operator",
+          "buyer_type_label": "Champion / Operator",
+          "role_context": {
+            "phase": "first_year",
+            "label": "First Year",
+            "implication": "Established foundation, now scaling what works",
+            "outreach_angle": "Help them accelerate proven initiatives"
+          },
+          "linkedin_activity": "",
+          "linkedin_summary": "No recent public activity was found on Alex Urquhart's LinkedIn profile. The available information pertains to licenses, certifications, and volunteer experience.",
+          "tier_1_criteria": false,
+          "tier_2_criteria": false
+        },
+        "channel": "LinkedIn",
+        "angle": "Operational validation conversation",
+        "goal": "Build ground-level support for executive conversation"
+      }
+    ],
+    "why_now": "Renee Elliott is first 6 months into their role—the window for new partnerships is open now but closes as they settle into existing vendor relationships. Recent news shows active company momentum (product launches, partnerships)—web presence needs to keep pace with business growth.",
+    "why_van": "Multiple marketing stakeholders suggests a team that needs agency support—VAN's network model provides the breadth of expertise they need without managing multiple vendor relationships."
+  },
+  "research_gaps": [
+    "No LinkedIn activity data available—limits personalization for outreach"
+  ],
+  "generated_at": "2026-01-28T23:31:27.477Z"
+}

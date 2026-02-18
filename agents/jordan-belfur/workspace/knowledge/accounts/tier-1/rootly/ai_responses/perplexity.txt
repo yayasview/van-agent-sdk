@@ -1,0 +1,17 @@
+**Rootly is an AI-native incident management platform** that helps companies detect, respond to, and resolve incidents faster through automation and streamlined workflows[1][2].
+
+## What They Do
+
+Rootly develops an **incident management platform and Slackbot** designed to automate manual administrative tasks and simplify the incident response process[1]. Their platform offers status pages, incident retrospectives, metrics, and integrations to help teams manage incidents from detection through resolution[1]. The platform is **native to Slack and Microsoft Teams**, allowing teams to manage incidents directly within their existing communication tools[2].
+
+## Who They Serve
+
+Rootly serves **hundreds of leading technology companies**, including NVIDIA, Squarespace, Canva, Grammarly, Elastic, Tripadvisor, Figma, Dropbox, LinkedIn, Lattice, Webflow, and Faire[2][3]. The company was founded in 2020 and is based in San Francisco, California[1].
+
+## What Makes Them Different
+
+Rootly distinguishes itself through its **AI-native approach** to incident response[2]. Additionally, the company launched **Rootly AI Labs** in April 2025, a community dedicated to advancing reliability engineering through innovative prototypes, open-source tools, and research[1]. This positions them not just as a service provider but as a thought leader in reliability engineering.
+
+## Customer Perception
+
+Customers rate Rootly highly on G2, giving it a **5-star rating**[2], indicating strong satisfaction among users who trust the platform to manage their incident response workflows.

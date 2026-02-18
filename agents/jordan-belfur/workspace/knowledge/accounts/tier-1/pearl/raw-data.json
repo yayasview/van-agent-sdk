@@ -1,0 +1,171 @@
+{
+  "company_name": "Pearl",
+  "domain": "hellopearl.com",
+  "linkedin_url": "https://www.linkedin.com/company/hellopearl",
+  "segment": "Enterprise",
+  "industry": "Software Development",
+  "description": "A computer vision company focused on delivering AI solutions that elevate the global standard of care in dentistry.",
+  "employee_count": 259,
+  "size_range": "51-200 employees",
+  "funding": {
+    "total_raised": null,
+    "last_round_type": "Series B",
+    "last_round_amount": null,
+    "last_round_date": "July 24, 2024",
+    "investors": "Left Lane Capital, with participation from Smash Capital, Alpha Partners, Craft Ventures, and Neotribe Ventures",
+    "raw": "Pearl, a leader in dental AI, announced on July 24, 2024, that it raised $58 million in a Series B funding round. The investment was led by Left Lane Capital, with participation from Smash Capital, Alpha Partners, Craft Ventures, and Neotribe Ventures. This funding aims to accelerate the development and global access of Pearl's AI-powered dental solutions, enhancing patient care and diagnostic accuracy."
+  },
+  "webflow": {
+    "uses_webflow": true,
+    "users": 16,
+    "projects": 2
+  },
+  "traffic": {
+    "monthly_visitors": 55499,
+    "top_page": "hellopearl.com",
+    "top_page_traffic": 10029,
+    "top_page_organic": 3892
+  },
+  "technical": {
+    "performance_score": 40,
+    "seo_score": 100,
+    "accessibility_score": 94,
+    "first_contentful_paint": "1.1 s",
+    "largest_contentful_paint": "3.3 s",
+    "ab_testing": false
+  },
+  "recent_news": "After January 1st, 2025, Pearl Global Industries Limited operates across South Asia, Southeast Asia, and Central America. Pearl Group expanded its Nordic presence by acquiring Factors and operating as Pearl Denmark, establishing three offices. Pearl Group also achieved SAP PE SELL Partnership status, signed a PearlCare agreement with AJ Vaccines, partnered with Atea Logistics for SAP S/4HANA, and became the main SAP partner for Norwegian Defence for five years. They launched a new initiative in the Seafood industry with a tailored SAP solution. In terms of marketing and initiatives, Pearl Group expanded its annual Pearl Innovation Day to multiple cities and is increasing its focus on AI. Additionally, effective January 1, 2025, Ms. Carpenter became Chief Strategic Engagement Officer for a company associated with 'Pearl', as indicated by an SEC filing.",
+  "tier": "1",
+  "contacts": [
+    {
+      "name": "Nick Garrison",
+      "first_name": "Nick",
+      "last_name": "Garrison",
+      "title": "Vice President Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "hellopearl.com",
+      "linkedin_url": "https://www.linkedin.com/in/nick-b-garrison",
+      "start_date": "2022-09-01T00:00:00.000Z",
+      "days_in_role": 1245,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Nick Garrison's recent public activity shows engagement with content highlighting Pearl's AI advancements in dentistry, such as increased diagnoses and uncovering untreated treatments. He also interacts with posts discussing team building, leadership in dental practices, and partnerships within the DSO sector.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Yael Albek",
+      "first_name": "Yael",
+      "last_name": "Albek",
+      "title": "Director of Product Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "hellopearl.com",
+      "linkedin_url": "https://www.linkedin.com/in/yael-albek-67381710/",
+      "start_date": "2025-12-01T00:00:00.000Z",
+      "days_in_role": 58,
+      "started_last_3mo": true,
+      "started_last_6mo": true,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "first_90_days",
+        "label": "First 90 Days",
+        "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+        "outreach_angle": "Help them deliver early wins that build credibility"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Yael Albek's recent public activity shows engagement with marketing technology, particularly through Acoustic Connect enhancements, and interest in dental AI solutions like those offered by Pearl. She also interacts with posts concerning current events and hiring opportunities within her network.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Daniel Gates",
+      "first_name": "Daniel",
+      "last_name": "Gates",
+      "title": "Director Enterprise Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "hellopearl.com",
+      "linkedin_url": "https://www.linkedin.com/in/daniel-gates-b9234ab9/",
+      "start_date": "2025-02-01T00:00:00.000Z",
+      "days_in_role": 361,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "first_year",
+        "label": "First Year",
+        "implication": "Established foundation, now scaling what works",
+        "outreach_angle": "Help them accelerate proven initiatives"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity from Daniel Gates is visible. His LinkedIn profile requires login to view his full activity feed.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Henry Denny",
+      "first_name": "Henry",
+      "last_name": "Denny",
+      "title": "Marketing Operations Manager",
+      "org": "",
+      "company_name": "",
+      "domain": "hellopearl.com",
+      "linkedin_url": "https://www.linkedin.com/in/henry-denny-a34a3b155",
+      "start_date": "2025-01-01T00:00:00.000Z",
+      "days_in_role": 392,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Henry Denny's recent public activity is not fully visible. The visible content consists of posts he has engaged with (liked) by other users, covering career announcements and industry-related topics.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Ophir Tanz",
+      "first_name": "Ophir",
+      "last_name": "Tanz",
+      "title": "Founder & CEO",
+      "org": "",
+      "company_name": "",
+      "domain": "hellopearl.com",
+      "linkedin_url": "https://www.linkedin.com/in/ophirtanz",
+      "start_date": "2019-05-01T00:00:00.000Z",
+      "days_in_role": 2464,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "unknown",
+      "buyer_type_label": "Unknown",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Ophir Tanz's recent public activity indicates a strong focus on AI in the dental industry through his work with Pearl. His posts and liked content highlight key developments such as the practical application of AI in clinical settings, significant partnerships like the one with DECA Dental Group, and regulatory milestones including FDA clearances for Pearl's imaging solutions. This suggests an active role in driving AI adoption and innovation within dentistry.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    }
+  ]
+}

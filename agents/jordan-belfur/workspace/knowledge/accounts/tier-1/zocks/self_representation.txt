@@ -1,0 +1,7 @@
+Homepage Headline: The AI Assistant for financial advisors
+Homepage Subheadline: Get 10+ hours a week back to focus on your clients. Automate your meeting notes, intake forms, client emails, and more.
+Company Description: Zocks empowers advisory firms with data-driven insights while maintaining the personal touch essential to client relationships. Founded in 2022, Zocks is an enterprise-grade, privacy-first AI platform that transforms client interactions into structured, actionable intelligence for financial advisors and firms.
+Offering Description: Zocks takes notes, automates meeting prep, drafts client emails, fills forms, and updates client profiles with seamless CRM and wealth stack integration.
+Target Audience: Zocks is designed for financial services professionals and teams—including financial advisors, wealth managers, life insurance agents, and enterprises—seeking streamlined client interactions, automated workflows, and enterprise‑grade compliance.
+Differentiators: privacy-first AI platform
+Tagline: The AI Assistant for financial advisors

@@ -1,0 +1,428 @@
+{
+  "company_name": "Zocks",
+  "domain": "zocks.io",
+  "tier": "2",
+  "segment": "Mid-Market",
+  "industry": "Software Development",
+  "description": "Zocks is the AI Assistant for financial services. Its privacy-first platform saves financial advisors 10+ hours a week by automating administrative tasks like meeting notes, forms, intake and account opening forms, tailored client emails, and more. \n\nWith powerful integrations and enterprise-ready controls, Zocks turns every client conversation into structured, accurate data and insights that strengthen relationships and fuel business growth. \n\nJoin thousands of advisors and firms, including Carson Group, Commonwealth, Osaic, Kestra Financial, and Ameritas, that rely on Zocks; learn more and start a free trial at zocks.io.",
+  "employee_count": 110,
+  "linkedin_url": "https://www.linkedin.com/company/zocks",
+  "funding": {
+    "total_raised": null,
+    "last_round_type": "Series B",
+    "last_round_amount": null,
+    "last_round_date": "January 26, 2026",
+    "investors": "Lightspeed Venture Partners and QED Investors, with participation from Illuminate Financial and existing investors",
+    "raw": "Zocks, an AI platform for financial advisors, announced on January 26, 2026, that it raised $45 million in a Series B funding round. The round was co-led by Lightspeed Venture Partners and QED Investors, with participation from Illuminate Financial and existing investors. This funding brings Zocks' total capital raised to $65 million and will be used to expand its agentic AI capabilities."
+  },
+  "traffic": {
+    "monthly_visitors": 42881,
+    "top_page": "console.zocks.io/login",
+    "top_page_traffic": 15764,
+    "top_page_organic": 6486
+  },
+  "technical": {
+    "performance_score": 73,
+    "seo_score": 100,
+    "accessibility_score": 87,
+    "first_contentful_paint": "0.9 s",
+    "largest_contentful_paint": "1.1 s",
+    "ab_testing": false
+  },
+  "webflow": {
+    "uses_webflow": true,
+    "users": 10,
+    "projects": 2
+  },
+  "recent_news": "Zocks announced a $45 million Series B funding round on January 26, 2026, bringing their total funding to $65 million. This significant investment follows a $13.8 million Series A round in March 2025 and is earmarked for expanding their AI capabilities beyond administrative tasks to identify new planning opportunities and enhancing enterprise features. In December 2025, Matt Halloran was appointed Chief Evangelist to lead AI education for advisors. The company also announced enhanced integrations with eMoney and RightCapital in December 2025, and it was noted that AdvisorEngine works with Zocks as of May 2025. Zocks released product updates in October and December 2025, introducing features like Document Intelligence and Client Signals. In October 2025, the company was recognized in Kitces Research for its adoption rate as an advisor-specific notetaker.",
+  "buying_committee": {
+    "economic_buyer": {
+      "name": "Michael Murphy",
+      "first_name": "Michael",
+      "last_name": "Murphy",
+      "title": "VP of Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "zocks.io",
+      "linkedin_url": "https://www.linkedin.com/in/michael-murphy-21338368/",
+      "start_date": "2025-04-01T00:00:00.000Z",
+      "days_in_role": 302,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "first_year",
+        "label": "First Year",
+        "implication": "Established foundation, now scaling what works",
+        "outreach_angle": "Help them accelerate proven initiatives"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    "champions": [
+      {
+        "name": "Nate Slayton",
+        "first_name": "Nate",
+        "last_name": "Slayton",
+        "title": "Senior Director of Product Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/nate-slayton-56ab161b/",
+        "start_date": "2025-10-01T00:00:00.000Z",
+        "days_in_role": 119,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Nick Swingle",
+        "first_name": "Nick",
+        "last_name": "Swingle",
+        "title": "Director Strategic Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/nick-swingle-2a943a8/",
+        "start_date": "2025-09-01T00:00:00.000Z",
+        "days_in_role": 149,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ],
+    "blockers": [],
+    "all_contacts": [
+      {
+        "name": "Michael Murphy",
+        "first_name": "Michael",
+        "last_name": "Murphy",
+        "title": "VP of Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/michael-murphy-21338368/",
+        "start_date": "2025-04-01T00:00:00.000Z",
+        "days_in_role": 302,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "first_year",
+          "label": "First Year",
+          "implication": "Established foundation, now scaling what works",
+          "outreach_angle": "Help them accelerate proven initiatives"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Drew DiMarino",
+        "first_name": "Drew",
+        "last_name": "DiMarino",
+        "title": "Chief Revenue Officer",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/ddimarino",
+        "start_date": "2025-01-01T00:00:00.000Z",
+        "days_in_role": 392,
+        "started_last_3mo": false,
+        "started_last_6mo": false,
+        "buyer_type": "economic_buyer",
+        "buyer_type_label": "Economic Buyer",
+        "role_context": {
+          "phase": "established",
+          "label": "Tenured (1+ years)",
+          "implication": "Owns current state—may defend it or be ready for change",
+          "outreach_angle": "Challenge status quo with new possibilities"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "Drew DiMarino's recent public activity shows engagement with posts discussing AI's impact on enterprises, reinvestment in Zocks | AI for Advisors, and the effectiveness of meeting transcription tools. His profile highlights his role as an AI Fintech & Vertical SaaS CRO with a history of successful exits and expertise in sales leadership.",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Nate Slayton",
+        "first_name": "Nate",
+        "last_name": "Slayton",
+        "title": "Senior Director of Product Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/nate-slayton-56ab161b/",
+        "start_date": "2025-10-01T00:00:00.000Z",
+        "days_in_role": 119,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      {
+        "name": "Nick Swingle",
+        "first_name": "Nick",
+        "last_name": "Swingle",
+        "title": "Director Strategic Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/nick-swingle-2a943a8/",
+        "start_date": "2025-09-01T00:00:00.000Z",
+        "days_in_role": 149,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      }
+    ]
+  },
+  "analysis": {
+    "opportunity_signals": [
+      {
+        "signal": "Existing Webflow User",
+        "detail": "2 projects, 10 users currently active",
+        "implication": "Already bought into Webflow—conversation is about expansion and optimization, not platform justification",
+        "strength": "strong"
+      },
+      {
+        "signal": "New Marketing Leadership",
+        "detail": "Nate Slayton (Senior Director of Product Marketing) started first 6 months",
+        "implication": "Nate is in the evaluation window—looking for partners to help them make their mark",
+        "strength": "strong"
+      },
+      {
+        "signal": "Recent Funding",
+        "detail": "$NaNM Series B (January 26, 2026) led by Lightspeed Venture Partners and QED Investors, with participation from Illuminate Financial and existing investors",
+        "implication": "Active deployment phase—budget available for growth initiatives",
+        "strength": "strong"
+      },
+      {
+        "signal": "Active Company Momentum",
+        "detail": "Geographic or market expansion activity; Industry recognition/awards",
+        "implication": "Company is actively growing and investing—web presence needs to keep pace with business growth",
+        "strength": "moderate"
+      },
+      {
+        "signal": "Marketing Team Depth",
+        "detail": "3 marketing stakeholders identified",
+        "implication": "Team size suggests capacity for agency engagement and multiple potential champions",
+        "strength": "moderate"
+      }
+    ],
+    "risk_factors": [
+      {
+        "risk": "Tenured Economic Buyer",
+        "detail": "Drew DiMarino has been in role 1+ years",
+        "mitigation": "May be invested in status quo—lead with champion, use executive as validation"
+      },
+      {
+        "risk": "Limited LinkedIn Intelligence",
+        "detail": "No recent LinkedIn activity available for contacts",
+        "mitigation": "Rely on company-level signals and role-based pain hypotheses for personalization"
+      }
+    ],
+    "van_fit_score": 85,
+    "van_fit_rationale": [
+      "Existing Webflow investment aligns directly with VAN core expertise"
+    ],
+    "primary_pain_points": [
+      {
+        "persona": "Michael Murphy",
+        "role": "VP of Marketing",
+        "tenure": "First Year",
+        "hypothesis": "Michael is focused on scaling what works while managing team capacity and budget",
+        "evidence": [
+          "Role: VP of Marketing",
+          "Tenure: First Year"
+        ],
+        "van_solution": "VAN augments team capacity with specialized expertise and execution power"
+      },
+      {
+        "persona": "Drew DiMarino",
+        "role": "Chief Revenue Officer",
+        "tenure": "Tenured (1+ years)",
+        "hypothesis": "Drew owns pipeline and revenue targets—any friction in the buyer journey directly impacts their numbers",
+        "evidence": [
+          "Role: Chief Revenue Officer"
+        ],
+        "van_solution": "VAN performance optimization directly impacts pipeline conversion—quantifiable ROI story"
+      },
+      {
+        "persona": "Nate Slayton",
+        "role": "Senior Director of Product Marketing",
+        "tenure": "First 6 Months",
+        "hypothesis": "Nate is likely struggling to launch campaigns fast enough to prove impact while learning a new tech stack and org",
+        "evidence": [
+          "Role: Senior Director of Product Marketing",
+          "Tenure: First 6 Months"
+        ],
+        "van_solution": "VAN enables marketing teams to ship landing pages and campaigns without engineering dependencies—directly addressing velocity pain"
+      },
+      {
+        "persona": "Nick Swingle",
+        "role": "Director Strategic Marketing",
+        "tenure": "First 6 Months",
+        "hypothesis": "Nick is proving themselves in a new role—needs quick wins while learning the org and tech stack",
+        "evidence": [
+          "Role: Director Strategic Marketing",
+          "Tenure: First 6 Months"
+        ],
+        "van_solution": "VAN provides execution capacity and expertise to accelerate delivery"
+      }
+    ],
+    "recommended_entry": {
+      "contact": {
+        "name": "Nate Slayton",
+        "first_name": "Nate",
+        "last_name": "Slayton",
+        "title": "Senior Director of Product Marketing",
+        "org": "",
+        "company_name": "",
+        "domain": "zocks.io",
+        "linkedin_url": "https://www.linkedin.com/in/nate-slayton-56ab161b/",
+        "start_date": "2025-10-01T00:00:00.000Z",
+        "days_in_role": 119,
+        "started_last_3mo": false,
+        "started_last_6mo": true,
+        "buyer_type": "champion_operator",
+        "buyer_type_label": "Champion / Operator",
+        "role_context": {
+          "phase": "first_180_days",
+          "label": "First 6 Months",
+          "implication": "Building their playbook, evaluating what to keep vs. change",
+          "outreach_angle": "Partner on their transformation agenda"
+        },
+        "linkedin_activity": "",
+        "linkedin_summary": "",
+        "tier_1_criteria": false,
+        "tier_2_criteria": false
+      },
+      "rationale": "Nate is new to role (First 6 Months) and actively evaluating stack—highest likelihood of openness to new partnerships",
+      "approach": "peer_to_peer",
+      "risk": "May not have budget authority yet—will need to build internal case"
+    },
+    "recommended_sequence": [
+      {
+        "step": 1,
+        "action": "Engage Nate Slayton",
+        "target": {
+          "name": "Nate Slayton",
+          "first_name": "Nate",
+          "last_name": "Slayton",
+          "title": "Senior Director of Product Marketing",
+          "org": "",
+          "company_name": "",
+          "domain": "zocks.io",
+          "linkedin_url": "https://www.linkedin.com/in/nate-slayton-56ab161b/",
+          "start_date": "2025-10-01T00:00:00.000Z",
+          "days_in_role": 119,
+          "started_last_3mo": false,
+          "started_last_6mo": true,
+          "buyer_type": "champion_operator",
+          "buyer_type_label": "Champion / Operator",
+          "role_context": {
+            "phase": "first_180_days",
+            "label": "First 6 Months",
+            "implication": "Building their playbook, evaluating what to keep vs. change",
+            "outreach_angle": "Partner on their transformation agenda"
+          },
+          "linkedin_activity": "",
+          "linkedin_summary": "",
+          "tier_1_criteria": false,
+          "tier_2_criteria": false
+        },
+        "channel": "LinkedIn connection + personalized note",
+        "angle": "Partner on their transformation agenda",
+        "goal": "Validate pain hypothesis, establish credibility"
+      },
+      {
+        "step": 2,
+        "action": "Multi-thread to Michael Murphy",
+        "target": {
+          "name": "Michael Murphy",
+          "first_name": "Michael",
+          "last_name": "Murphy",
+          "title": "VP of Marketing",
+          "org": "",
+          "company_name": "",
+          "domain": "zocks.io",
+          "linkedin_url": "https://www.linkedin.com/in/michael-murphy-21338368/",
+          "start_date": "2025-04-01T00:00:00.000Z",
+          "days_in_role": 302,
+          "started_last_3mo": false,
+          "started_last_6mo": false,
+          "buyer_type": "economic_buyer",
+          "buyer_type_label": "Economic Buyer",
+          "role_context": {
+            "phase": "first_year",
+            "label": "First Year",
+            "implication": "Established foundation, now scaling what works",
+            "outreach_angle": "Help them accelerate proven initiatives"
+          },
+          "linkedin_activity": "",
+          "linkedin_summary": "",
+          "tier_1_criteria": false,
+          "tier_2_criteria": false
+        },
+        "channel": "Email (reference champion conversation)",
+        "angle": "Executive-level value prop with internal context",
+        "goal": "Establish budget-holder relationship"
+      }
+    ],
+    "why_now": "Nate Slayton is first 6 months into their role—the window for new partnerships is open now but closes as they settle into existing vendor relationships. Recent news shows active company momentum (product launches, partnerships)—web presence needs to keep pace with business growth. They're early in their Webflow journey (2 projects)—now is the time to establish VAN as their go-to Webflow partner before they build internal muscle or find another agency. Post-funding momentum (Series B, 0 months ago) means budget is available for strategic initiatives.",
+    "why_van": "VAN's deep Webflow expertise is directly relevant—they're already invested in the platform and need a partner who can help them maximize that investment. Multiple marketing stakeholders suggests a team that needs agency support—VAN's network model provides the breadth of expertise they need without managing multiple vendor relationships."
+  },
+  "research_gaps": [
+    "No LinkedIn activity data available—limits personalization for outreach",
+    "No funding data—unable to assess budget timing"
+  ],
+  "generated_at": "2026-01-28T23:31:27.509Z"
+}

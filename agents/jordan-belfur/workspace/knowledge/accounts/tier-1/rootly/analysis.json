@@ -1,0 +1,52 @@
+{
+  "company_name": "Rootly",
+  "website_url": "rootly.com",
+  "industry": "",
+  "overall_score": 72.22222222222221,
+  "risk_level": "Medium",
+  "platform_scores": {
+    "chatgpt": 66.66666666666666,
+    "perplexity": 72.22222222222221,
+    "gemini": 77.77777777777779
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 2,
+      "key_products": 1,
+      "differentiators": 3,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 1,
+      "target_audience": 2,
+      "key_products": 1,
+      "differentiators": 3,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 2,
+      "target_audience": 2,
+      "key_products": 2,
+      "differentiators": 3,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    }
+  },
+  "key_gaps": [
+    "Key products/features not mentioned",
+    "Core offering not well captured",
+    "Target audience partially identified"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content",
+    "Increase brand mentions on third-party sources (G2, Reddit, industry publications)"
+  ],
+  "generated_at": "2026-01-28T15:24:44.595238"
+}

@@ -1,0 +1,171 @@
+{
+  "company_name": "Hiya",
+  "domain": "hiya.com",
+  "linkedin_url": "https://www.linkedin.com/company/hiyainc",
+  "segment": "Enterprise",
+  "industry": "Software Development",
+  "description": "At Hiya, we are revolutionizing the voice communication experience, making it more productive and secure. Our Voice Intelligence Platform connects and protects over 500 million users worldwide, leveraging AI to deliver smarter, safer, and more productive voice interactions.\n\nHiya supports enterprises, carriers, and OEMs in enhancing the voice experience.\n\nFor enterprises, Hiya’s Branded Call helps businesses connect with their customers, placing trust back into the phone call. By displaying your company name, logo, and call reason you are improving the customer experience, providing trustworthy calls, and protecting from costly phone scam and spam calls. \n\nFor carriers and OEMs, Hiya provides a secure enhanced calling experience that builds customer trust and loyalty by protecting users against spam and fraud. Enabling carriers to secure their network and grow their business through a differentiated voice proposition that improves ARPU and NPS, while reducing churn. \n\nWant to build the future of voice communications? Join our dynamic, collaborative team where you’ll be empowered to create, innovate and disrupt the voice experience. If you’re ready to make an impact and revolutionize the voice calling experience, explore our opportunities.",
+  "employee_count": 223,
+  "size_range": "51-200 employees",
+  "funding": {
+    "total_raised": 4700000,
+    "last_round_type": "Series A",
+    "last_round_amount": 4700000,
+    "last_round_date": "March 27, 2023",
+    "investors": "",
+    "raw": "Hiya raised $4.7M in a Series A funding round on March 27, 2023. The company has a total funding of $30.7M across 3 rounds."
+  },
+  "webflow": {
+    "uses_webflow": true,
+    "users": 24,
+    "projects": 3
+  },
+  "traffic": {
+    "monthly_visitors": 4476587,
+    "top_page": "hiya.com/products/smart-call",
+    "top_page_traffic": 1371597,
+    "top_page_organic": 8754
+  },
+  "technical": {
+    "performance_score": 57.99999999999999,
+    "seo_score": 100,
+    "accessibility_score": 90,
+    "first_contentful_paint": "1.1 s",
+    "largest_contentful_paint": "1.9 s",
+    "ab_testing": false
+  },
+  "recent_news": "Since January 1st, 2025, Hiya has launched new products and expanded its global reach through strategic partnerships. In January 2025, the company introduced Hiya AI Phone, an AI call assistant app designed to screen calls and protect users from scams. By September 2025, Hiya launched Caller Reputation, a service offering a 'credit score' for business calls. Hiya has also significantly broadened its market presence via collaborations: in March 2025, its AI flagging technology was noted for protecting O2 customers in the UK; in February 2025, Telenor Norway implemented a call protection service using Hiya's Adaptive AI; in April 2025, Hiya extended its partnership with Samsung through 2028; in November 2025, MasOrange partnered with Hiya in Spain to combat spam and fraud; and in January 2026, Hiya collaborated with Deutsche Telekom in Germany to deploy branded calling at scale. Furthermore, Hiya was named a finalist for the 2025 GeekWire Awards.",
+  "tier": "1",
+  "contacts": [
+    {
+      "name": "Anthony Lanham",
+      "first_name": "Anthony",
+      "last_name": "Lanham",
+      "title": "Chief Revenue Officer",
+      "org": "",
+      "company_name": "",
+      "domain": "hiya.com",
+      "linkedin_url": "https://www.linkedin.com/in/anthonylanham",
+      "start_date": "2022-02-01T00:00:00.000Z",
+      "days_in_role": 1457,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity found on the profile.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Stephanie Boulanger",
+      "first_name": "Stephanie",
+      "last_name": "Boulanger",
+      "title": "Principal Product Marketing Manager",
+      "org": "",
+      "company_name": "",
+      "domain": "hiya.com",
+      "linkedin_url": "https://www.linkedin.com/in/stephaniemchinn",
+      "start_date": "2025-12-01T00:00:00.000Z",
+      "days_in_role": 58,
+      "started_last_3mo": true,
+      "started_last_6mo": true,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "first_90_days",
+        "label": "First 90 Days",
+        "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+        "outreach_angle": "Help them deliver early wins that build credibility"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Stephanie Boulanger's recent public activity is not visible as it requires a LinkedIn login. Only posts she has liked are accessible, not her own contributions.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Natalie Rohde",
+      "first_name": "Natalie",
+      "last_name": "Rohde",
+      "title": "Director of Product Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "hiya.com",
+      "linkedin_url": "https://www.linkedin.com/in/natalie-rohde-04756840/",
+      "start_date": "2025-09-01T00:00:00.000Z",
+      "days_in_role": 149,
+      "started_last_3mo": false,
+      "started_last_6mo": true,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "first_180_days",
+        "label": "First 6 Months",
+        "implication": "Building their playbook, evaluating what to keep vs. change",
+        "outreach_angle": "Partner on their transformation agenda"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity found. The profile content is not publicly accessible without login or account creation.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Julianne Maila",
+      "first_name": "Julianne",
+      "last_name": "Maila",
+      "title": "Director of Product Marketing",
+      "org": "",
+      "company_name": "",
+      "domain": "hiya.com",
+      "linkedin_url": "https://www.linkedin.com/in/julianne-maila/",
+      "start_date": "2021-10-01T00:00:00.000Z",
+      "days_in_role": 1580,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "champion_operator",
+      "buyer_type_label": "Champion / Operator",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity found as the profile is private or does not exist.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Jonathan Nelson",
+      "first_name": "Jonathan",
+      "last_name": "Nelson",
+      "title": "Director of Product Management",
+      "org": "",
+      "company_name": "",
+      "domain": "hiya.com",
+      "linkedin_url": "https://www.linkedin.com/in/jonathanonelson/",
+      "start_date": "2018-02-01T00:00:00.000Z",
+      "days_in_role": 2918,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "blocker_influencer",
+      "buyer_type_label": "Blocker / Influencer",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Jonathan Nelson's recent LinkedIn activity highlights his involvement with Hiya Inc., focusing on combating phone spam and promoting the company's services. He has shared posts about Hiya's annual \"State of the Call Summit,\" company achievements like being ranked the #1 US Startup by Forbes, and past partnerships. The activity also indicates a focus on hiring.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    }
+  ]
+}

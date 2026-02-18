@@ -1,0 +1,54 @@
+{
+  "company_name": "Foxglove",
+  "website_url": "foxglove.dev",
+  "industry": "",
+  "overall_score": 64.81481481481482,
+  "risk_level": "High",
+  "platform_scores": {
+    "chatgpt": 61.111111111111114,
+    "perplexity": 83.33333333333334,
+    "gemini": 50.0
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 2,
+      "differentiators": 2,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 3,
+      "target_audience": 1,
+      "key_products": 3,
+      "differentiators": 3,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 2,
+      "brand_tone": 3,
+      "factual_accuracy": 1
+    }
+  },
+  "key_gaps": [
+    "Differentiators partially captured",
+    "Target audience not mentioned",
+    "Core offering not well captured",
+    "Key products/features not mentioned",
+    "AI has limited knowledge of this company"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content"
+  ],
+  "generated_at": "2026-01-28T15:24:44.902840"
+}

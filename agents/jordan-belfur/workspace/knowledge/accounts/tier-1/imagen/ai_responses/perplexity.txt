@@ -1,0 +1,18 @@
+**Imagen (imagen.ai) is a healthcare technology company providing an AI-enabled diagnostic imaging platform that improves quality, reduces costs, and expands access to services like mammography, X-ray, and fundoscopy for providers nationwide.[1][2]**
+
+### What They Do
+Imagen delivers end-to-end solutions including in-clinic imaging equipment, AI-supported interpretations by U.S.-based sub-specialty radiologists, and analytics tools like RadGap for closing care gaps.[2] Their FDA-cleared AI algorithms enhance accuracy and speed, with services covering teleradiology 24/7 and on-site program support across modalities.[1][2]
+
+### Who They Serve
+They partner with independent practices, hospitals, health systems, and payers, serving 3.5 million patients in 23 states with 95+ board-certified specialists licensed in 50 states.[2]
+
+### What Makes Them Different
+Imagen combines fellowship-trained radiologists with proprietary AI for superior outcomes, such as a 73% reduction in life-threatening misses and doubled chronic disease detection, plus industry-leading turnaround times and a partnership model.[2] Unlike pure software providers, they supply hardware, workflows, and clinical expertise to enable on-site imaging anywhere.[1]
+
+### What They Are Known For
+The company is recognized for pioneering AI in diagnostics to make high-quality care accessible, inspired by founder Alex's personal cancer misdiagnosis story, and for their scale with 97% customer retention.[1][2]
+
+### What Customers Say
+95% of physicians recommend Imagen to peers, reflecting high satisfaction with accuracy, speed, and support; metrics also show 97% all-time retention.[2]
+
+*Note: Other entities share the "Imagen" name, such as a multicultural marketing agency (theimagengroup.com), media asset platform (imagen.io), and photo editing AI (imagen-ai.com), but context points to the healthcare firm as primary.[3][4][5][6]*
