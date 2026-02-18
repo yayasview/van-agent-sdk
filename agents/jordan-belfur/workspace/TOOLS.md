@@ -40,11 +40,42 @@ Jordan has full read/write access to HubSpot for pipeline operations.
 
 ## Google Workspace (via MCP)
 
-Jordan has access to Google Drive, Docs, and Sheets:
+**Server:** `@piotr-agier/google-drive-mcp` (npm, STDIO transport)
+**Config:** `agents/jordan-belfur/.mcp.json`
+**Auth:** `GOOGLE_DRIVE_OAUTH_CREDENTIALS` env var (path to OAuth credentials JSON)
 
-- **Google Drive** — Read. Search and access files (meeting transcripts, research docs, account data)
-- **Google Docs** — Read/write. Create and edit documents (briefs, reports, proposals)
-- **Google Sheets** — Read/write. Create and edit spreadsheets (project plans, account trackers)
+Jordan has full read/write access to Google Drive, Docs, Sheets, and Slides.
+
+### Available Operations
+
+**Search & Navigation**
+- `search` — Search files across all of Drive by query
+- `listFolder` — List contents of a folder (by ID or root)
+
+**File Management**
+- `createTextFile` — Create .txt or .md files
+- `updateTextFile` — Update existing text files
+- `deleteItem` — Move files/folders to trash
+- `renameItem` — Rename files or folders
+- `moveItem` — Move files or folders between directories
+- `createFolder` — Create new folders (supports path-based parents)
+
+**Google Docs**
+- `createGoogleDoc` — Create a new Google Doc with content
+- `updateGoogleDoc` — Update an existing Google Doc
+- `getGoogleDocContent` — Read doc content with text positions
+- `formatGoogleDocText` — Apply text formatting (bold, italic, font size, color)
+- `formatGoogleDocParagraph` — Apply paragraph formatting (alignment, spacing, styles)
+
+**Google Sheets**
+- `createGoogleSheet` — Create a new spreadsheet with data
+- `updateGoogleSheet` — Update a range of cells
+- `getGoogleSheetContent` — Read cell values from a range
+- `formatGoogleSheetCells` — Format cells (background color, alignment, wrap)
+
+**Google Slides**
+- `createGoogleSlides` — Create a new presentation with slides
+- `updateGoogleSlides` — Update an existing presentation
 
 ## Skills (Shared Library)
 
