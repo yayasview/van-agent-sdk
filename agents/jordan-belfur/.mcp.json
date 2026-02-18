@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "hubspot": {
+      "command": "npx",
+      "args": ["-y", "hubspot-mcp-server"],
+      "env": {
+        "HUBSPOT_ACCESS_TOKEN": "${HUBSPOT_ACCESS_TOKEN}"
+      }
+    },
+    "google-drive": {
+      "command": "npx",
+      "args": ["-y", "@piotr-agier/google-drive-mcp"],
+      "env": {
+        "GOOGLE_DRIVE_OAUTH_CREDENTIALS": "${GOOGLE_DRIVE_OAUTH_CREDENTIALS}"
+      }
+    }
+  }
+}

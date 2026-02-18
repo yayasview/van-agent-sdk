@@ -2,26 +2,80 @@
 
 ## HubSpot (via MCP)
 
-Jordan has read/write access to HubSpot for pipeline operations:
+**Server:** `hubspot-mcp-server` (npm, STDIO transport)
+**Config:** `agents/jordan-belfur/.mcp.json`
+**Auth:** `HUBSPOT_ACCESS_TOKEN` env var (HubSpot Private App token)
 
-- **Contacts** — Read/write. Look up contacts by company, role, or email.
-- **Companies** — Read/write. Pull company data, update properties.
-- **Deals** — Read/write. Query pipeline, update deal stages, add notes, modify amounts/close dates.
-- **Lists & Segments** — Read. Query ABM lists and account segments.
-- **Custom Properties** — Read/write. ABM tier, account status, engagement scores.
+Jordan has full read/write access to HubSpot for pipeline operations.
 
-**Usage notes:**
+### Available Operations
+
+**Contacts**
+- Create, read, update, search, and list contacts
+- Look up contacts by company, role, or email
+- Create new contacts with duplicate prevention
+
+**Companies**
+- Create, read, update, search, and list companies
+- Pull company data, update properties
+- Create new companies with duplicate prevention
+
+**Deals**
+- Create, read, update, search, and list deals
+- Query pipeline stages, update deal stages
+- Add notes, modify amounts/close dates
+
+**Associations**
+- Query and manage associations between contacts, companies, and deals
+
+**Tasks & Engagements**
+- Create follow-up tasks
+- Search and filter notes and engagements
+
+### Usage Rules
 - Always append notes, never overwrite existing ones
 - Confirm with user before changing deal stages
 - If a deal can't be found, ask for clarification before creating new records
+- Never create duplicate records — use search first
 
 ## Google Workspace (via MCP)
 
-Jordan has access to Google Drive, Docs, and Sheets:
+**Server:** `@piotr-agier/google-drive-mcp` (npm, STDIO transport)
+**Config:** `agents/jordan-belfur/.mcp.json`
+**Auth:** `GOOGLE_DRIVE_OAUTH_CREDENTIALS` env var (path to OAuth credentials JSON)
 
-- **Google Drive** — Read. Search and access files (meeting transcripts, research docs, account data)
-- **Google Docs** — Read/write. Create and edit documents (briefs, reports, proposals)
-- **Google Sheets** — Read/write. Create and edit spreadsheets (project plans, account trackers)
+Jordan has full read/write access to Google Drive, Docs, Sheets, and Slides.
+
+### Available Operations
+
+**Search & Navigation**
+- `search` — Search files across all of Drive by query
+- `listFolder` — List contents of a folder (by ID or root)
+
+**File Management**
+- `createTextFile` — Create .txt or .md files
+- `updateTextFile` — Update existing text files
+- `deleteItem` — Move files/folders to trash
+- `renameItem` — Rename files or folders
+- `moveItem` — Move files or folders between directories
+- `createFolder` — Create new folders (supports path-based parents)
+
+**Google Docs**
+- `createGoogleDoc` — Create a new Google Doc with content
+- `updateGoogleDoc` — Update an existing Google Doc
+- `getGoogleDocContent` — Read doc content with text positions
+- `formatGoogleDocText` — Apply text formatting (bold, italic, font size, color)
+- `formatGoogleDocParagraph` — Apply paragraph formatting (alignment, spacing, styles)
+
+**Google Sheets**
+- `createGoogleSheet` — Create a new spreadsheet with data
+- `updateGoogleSheet` — Update a range of cells
+- `getGoogleSheetContent` — Read cell values from a range
+- `formatGoogleSheetCells` — Format cells (background color, alignment, wrap)
+
+**Google Slides**
+- `createGoogleSlides` — Create a new presentation with slides
+- `updateGoogleSlides` — Update an existing presentation
 
 ## Skills (Shared Library)
 
