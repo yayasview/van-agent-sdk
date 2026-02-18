@@ -1,0 +1,19 @@
+# Future: CI/CD for skill and agent distribution
+# This workflow will package agents and skills for deployment
+name: Package Agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      agent:
+        description: 'Agent to package (e.g., jordan-belfur)'
+        required: true
+        type: string
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: echo "TODO - Implement agent packaging pipeline"
