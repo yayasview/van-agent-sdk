@@ -1,0 +1,16 @@
+**Foxglove is a San Francisco-based technology company founded in 2021 that provides observability and developer tools for robotics teams, including the open-source Foxglove Studio platform for visualizing, annotating, debugging, and managing robotics data.**[1][2][3][4]
+
+### What They Do
+Foxglove offers a platform for robotics development, featuring tools for data visualization, management, annotation, debugging, and incident resolution to streamline robot iteration and deployment.[1][2][3] Key products include Foxglove Studio (forked from Cruise's Webviz), MCAP data format, integrations, extensibility options, and security features.[2][3][4] Their mission is to equip engineers with modern tooling to accelerate robotics from simulation to production, particularly for Physical AI and sensor data analysis.[2][3][5]
+
+### Who They Serve
+They primarily serve **robotics teams and developers** across industries like automotive, defense & aerospace, logistics, manufacturing, agriculture, marine, construction, and health.[2] This includes autonomous vehicle companies (drawing from founders' Cruise experience) and broader robotics developers needing scalable data infrastructure.[1][2][3]
+
+### What Makes Them Different
+Foxglove stands out for addressing fragmented robotics tooling with a unified, high-quality platform evolved from Cruise's internal tools, enabling faster iteration at scale.[2][3] Unlike general AI platforms (e.g., DataRobot) or robot fleet managers (e.g., InOrbit), it specializes in **observability for robotics data**—from visualization to analysis—via open-source components like Foxglove Studio and MCAP, making it accessible yet production-ready.[1][2][4] Founders' Cruise background provides proven expertise in autonomous systems infrastructure.[2][3]
+
+### What They Are Known For
+Foxglove is recognized for **Foxglove Studio**, an open-source tool for robotics data visualization and diagnosis, and its $40M funding to expand the data platform for roboticists handling sensor data.[3][4][5] It's noted for revolutionizing developer workflows in robotics, similar to modern software observability but tailored for robots.[2]
+
+### What Customers Say
+Search results lack direct customer testimonials or reviews; available data focuses on company descriptions, funding, and self-reported mission without user feedback.[1][2][3][4][5] No specific customer quotes or ratings are provided in the sources.

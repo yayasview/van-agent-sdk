@@ -1,0 +1,17 @@
+**EventsAir is a comprehensive event management software platform** that helps event professionals plan, execute, and analyze in-person, virtual, and hybrid events[1][3].
+
+## What They Do
+
+EventsAir provides an **all-in-one platform** that covers the entire event lifecycle[1]. Pre-event capabilities include custom-branded event websites, registration management, speaker and abstract management, budget control, and logistics planning[3]. During the event, the platform facilitates seamless check-in experiences, mobile attendee apps, real-time sponsor dashboards, and hybrid content streaming[3]. Post-event, EventsAir offers 150+ reports for tracking engagement and ROI, along with content repurposing tools[3].
+
+## Who They Serve
+
+The platform is **designed by event planners for event planners**[2]. EventsAir serves professional conference organizers, corporate event planners, industry associations, government conferences, and university faculties[2]. They have powered over 400,000 events worldwide, generating 18 million registrations and 2.5 million online attendees[4]. Notable clients include major global events such as the Olympics, G20, APEC, Rugby World Cup, and Commonwealth Games[2].
+
+## What Makes Them Different
+
+EventsAir has been **innovating for over 30 years** since its founding in 1990[4]. The platform is built on Microsoft Azure's secure, scalable cloud infrastructure with PCI compliance and GDPR toolkit support[2]. A distinguishing achievement is **OnAIR**, a rapid innovation developed in May 2020 that enabled event planners to continue delivering experiences when in-person meetings became impossible, adding remote attendance capabilities to live events[4].
+
+## What Customers Say
+
+Testimonials highlight strong satisfaction. One customer reported an **event satisfaction rating of 4.94 out of 5** for 1,500+ attendees[3]. Another client praised EventsAir's team, stating: "We have nothing but praise for EventsAir. They were partners in the truest sense of the word. Everything that we asked them to do they were able to do. They went above and beyond the call of duty"[4].

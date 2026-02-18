@@ -1,0 +1,145 @@
+{
+  "company_name": "Foxglove",
+  "domain": "foxglove.dev",
+  "linkedin_url": "https://www.linkedin.com/company/foxglovedev",
+  "segment": "Mid-Market",
+  "industry": "Software Development",
+  "description": "Foxglove's interactive visualization, advanced debugging, and data management capabilities empowers robotic developers to understand how their robots sense, think, and act in dynamic and unpredictable environments. All with the performance and scalability needed to create autonomy and build reliable robots.",
+  "employee_count": 68,
+  "size_range": "51-200 employees",
+  "funding": {
+    "total_raised": null,
+    "last_round_type": "Series B",
+    "last_round_amount": null,
+    "last_round_date": "November 12, 2025",
+    "investors": "Bessemer Venture Partners, with participation from existing investors Eclipse and Amplify Partners",
+    "raw": "Foxglove, a data and observability platform for Physical AI, announced a $40 million Series B funding round on November 12, 2025. The round was led by Bessemer Venture Partners, with participation from existing investors Eclipse and Amplify Partners. This funding will support the expansion of Foxglove's platform to cover the complete data lifecycle for robotics development and deployment. The company has now raised over $58 million since its founding in 2021."
+  },
+  "webflow": {
+    "uses_webflow": true,
+    "users": 10,
+    "projects": 2
+  },
+  "traffic": {
+    "monthly_visitors": 45170,
+    "top_page": "foxglove.dev",
+    "top_page_traffic": 10623,
+    "top_page_organic": 6518
+  },
+  "technical": {
+    "performance_score": 99,
+    "seo_score": 100,
+    "accessibility_score": 85,
+    "first_contentful_paint": "0.6 s",
+    "largest_contentful_paint": "1.0 s",
+    "ab_testing": false
+  },
+  "recent_news": "In 2025, Foxglove underwent a significant rebranding, launching a new brand identity on April 22nd to better reflect its position as \"The observability stack for physical AI.\" In November 2025, the company announced it had raised $40 million in Series B financing, led by Bessemer Venture Partners. Foxglove was also recognized in *The Robot Report*'s Startup Radar. The company has a partnership with Shield AI, and its platform is utilized by major industry players.",
+  "tier": "2",
+  "contacts": [
+    {
+      "name": "Sandeep Kini",
+      "first_name": "Sandeep",
+      "last_name": "Kini",
+      "title": "Head of Growth",
+      "org": "",
+      "company_name": "",
+      "domain": "foxglove.dev",
+      "linkedin_url": "https://www.linkedin.com/in/sandeepkini",
+      "start_date": "2025-12-01T00:00:00.000Z",
+      "days_in_role": 58,
+      "started_last_3mo": true,
+      "started_last_6mo": true,
+      "buyer_type": "economic_buyer",
+      "buyer_type_label": "Economic Buyer",
+      "role_context": {
+        "phase": "first_90_days",
+        "label": "First 90 Days",
+        "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+        "outreach_angle": "Help them deliver early wins that build credibility"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "No recent public activity found.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Milin Mehta",
+      "first_name": "Milin",
+      "last_name": "Mehta",
+      "title": "Head of Communications",
+      "org": "",
+      "company_name": "",
+      "domain": "foxglove.dev",
+      "linkedin_url": "https://www.linkedin.com/in/milin-mehta-22b7205/",
+      "start_date": "2025-12-01T00:00:00.000Z",
+      "days_in_role": 58,
+      "started_last_3mo": true,
+      "started_last_6mo": true,
+      "buyer_type": "unknown",
+      "buyer_type_label": "Unknown",
+      "role_context": {
+        "phase": "first_90_days",
+        "label": "First 90 Days",
+        "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+        "outreach_angle": "Help them deliver early wins that build credibility"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Milin Mehta's recent activity indicates a strong interest in robotics, AI, and autonomous vehicles, with engagement on topics like Waymo's operations and Wayve's progress. He shared a positive update about Wayve and is slated to speak at the Urban Autonomy Summit. Much of his detailed activity is not publicly visible without logging in.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Dana Bacharach",
+      "first_name": "Dana",
+      "last_name": "Bacharach",
+      "title": "Go To Market Growth",
+      "org": "",
+      "company_name": "",
+      "domain": "foxglove.dev",
+      "linkedin_url": "https://www.linkedin.com/in/dana-bacharach",
+      "start_date": "2025-11-01T00:00:00.000Z",
+      "days_in_role": 88,
+      "started_last_3mo": true,
+      "started_last_6mo": true,
+      "buyer_type": "unknown",
+      "buyer_type_label": "Unknown",
+      "role_context": {
+        "phase": "first_90_days",
+        "label": "First 90 Days",
+        "implication": "Proving themselves, seeking quick wins, assessing inherited stack",
+        "outreach_angle": "Help them deliver early wins that build credibility"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Dana Bacharach has shared personal updates, including looking forward to 2026 and expressing gratitude. She has also engaged with significant industry news, such as a Series C funding round for Skai.ai, a CMO's departure from Quantum Metric, and a post about relocating to Japan.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    },
+    {
+      "name": "Adrian Macneil",
+      "first_name": "Adrian",
+      "last_name": "Macneil",
+      "title": "Co-Founder & CEO",
+      "org": "",
+      "company_name": "",
+      "domain": "foxglove.dev",
+      "linkedin_url": "https://www.linkedin.com/in/adrianmacneil",
+      "start_date": "2021-01-01T00:00:00.000Z",
+      "days_in_role": 1853,
+      "started_last_3mo": false,
+      "started_last_6mo": false,
+      "buyer_type": "unknown",
+      "buyer_type_label": "Unknown",
+      "role_context": {
+        "phase": "established",
+        "label": "Tenured (1+ years)",
+        "implication": "Owns current state—may defend it or be ready for change",
+        "outreach_angle": "Challenge status quo with new possibilities"
+      },
+      "linkedin_activity": "",
+      "linkedin_summary": "Adrian Macneil's recent LinkedIn activity shows engagement with topics in robotics, AI, and technology development, including posts on industry practices and Tesla's self-driving data. He also liked content related to robotics, AI, and career changes.",
+      "tier_1_criteria": false,
+      "tier_2_criteria": false
+    }
+  ]
+}

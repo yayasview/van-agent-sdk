@@ -1,0 +1,23 @@
+**Zocks is an enterprise-grade, privacy-first AI platform founded in 2022 that automates administrative tasks for financial advisors by transforming client conversations into structured data, notes, forms, emails, and CRM updates without requiring recordings.** [1][2][4]
+
+### What Zocks Does
+Zocks automates workflows like real-time meeting note-taking, client intake and account opening forms, personalized follow-up emails, document processing, and CRM/financial planning tool integrations (e.g., Wealthbox).[1][2][4][6] It analyzes conversations to generate summaries, client priorities, action items, tasks, and client profiles, saving advisors **10+ hours per week** and enabling focus on client relationships.[2][4][5]
+
+### Who They Serve
+Zocks primarily serves **financial advisors, solo practices, mid-size firms, enterprises, RIAs, and broker-dealers**, including thousands of users at major partners like Carson Group, Osaic (11,000 advisors), Commonwealth Financial Network, Ameritas, and Practifi.[1][3][4][5]
+
+### What Makes Zocks Different
+- **Privacy-first design** with no recordings, built-in compliance, security, and scalability for enterprise use.[1][2][3][6]
+- Customizable templates, bi-directional CRM syncs, and deep workflow automation across systems, unlike generic AI meeting tools.[2][3][4]
+- Acts as a "system of work and insight" for personalized, proactive service, aggregating data for revenue activities and firm-wide dashboards.[2]
+
+### What They Are Known For
+Zocks is recognized for **AI-driven advisor productivity, client intelligence, and partnerships** (e.g., Commonwealth, Osaic, Carson Group).[1][3] Key achievements include **$13.8M Series A (March 2025)**, **$45M Series B (Jan 2026, total $65M)** from Lightspeed, QED, and others; **2025 WealthTech100** listing; and integrations enhancing compliance and scalability.[1][2]
+
+### What Customers Say
+Customers praise Zocks for efficiency, detail capture, and client experience gains:
+- "Synthesizes meeting information... We couldn’t live without it."[4]
+- "Bi-directional integration... leveling up client experience."[4]
+- "Like having a seasoned advisor in every meeting."[4]
+- "Frees up at least 20 minutes... after each meeting."[4]
+- Commonwealth: "Purpose-built... strategic enabler."[3]

@@ -1,0 +1,54 @@
+{
+  "company_name": "Siro",
+  "website_url": "siro.ai",
+  "industry": "",
+  "overall_score": 51.85185185185185,
+  "risk_level": "High",
+  "platform_scores": {
+    "chatgpt": 55.55555555555556,
+    "perplexity": 55.55555555555556,
+    "gemini": 44.44444444444444
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 1,
+      "target_audience": 2,
+      "key_products": 1,
+      "differentiators": 1,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 1
+    }
+  },
+  "key_gaps": [
+    "Target audience not mentioned",
+    "Key differentiators not captured",
+    "Core offering not well captured",
+    "Target audience partially identified",
+    "Key products/features not mentioned"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content"
+  ],
+  "generated_at": "2026-01-28T15:24:45.341562"
+}

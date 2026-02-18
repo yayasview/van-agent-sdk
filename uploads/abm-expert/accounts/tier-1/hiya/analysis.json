@@ -1,0 +1,54 @@
+{
+  "company_name": "Hiya",
+  "website_url": "hiya.com",
+  "industry": "",
+  "overall_score": 59.25925925925926,
+  "risk_level": "High",
+  "platform_scores": {
+    "chatgpt": 55.55555555555556,
+    "perplexity": 66.66666666666666,
+    "gemini": 55.55555555555556
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 2,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 2,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 2,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    }
+  },
+  "key_gaps": [
+    "Differentiators partially captured",
+    "Target audience not mentioned",
+    "Key differentiators not captured",
+    "Core offering not well captured",
+    "Key products/features not mentioned"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content"
+  ],
+  "generated_at": "2026-01-28T15:24:43.870267"
+}
