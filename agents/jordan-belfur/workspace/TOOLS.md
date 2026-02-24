@@ -87,6 +87,7 @@ Skills live in the shared skill library at the repo root. When you need a skill,
 | `aeo-report` | `../../skills/aeo-report/SKILL.md` | Generate AEO analysis reports for prospect websites |
 | `update-deal` | `../../skills/update-deal/SKILL.md` | Update HubSpot deal records from call notes/emails/transcripts |
 | `sop-from-transcript` | `../../skills/sop-from-transcript/SKILL.md` | Generate SOPs from video/call transcripts |
+| `linkedin-connection-checker` | `../../skills/linkedin-connection-checker/SKILL.md` | Check LinkedIn connection status for HubSpot list contacts |
 
 **How to use a skill:** Read the SKILL.md, follow its workflow, use its output format. Skills are the playbook — follow them.
 

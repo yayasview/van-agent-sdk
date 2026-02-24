@@ -10,6 +10,7 @@ Master catalog of all available skills. Agents reference skills by name. Skills 
 | `aeo-report` | `skills/aeo-report/SKILL.md` | Generate AEO analysis reports for prospect websites | Template — needs real workflow |
 | `update-deal` | `skills/update-deal/SKILL.md` | Update HubSpot deal records from call notes/emails/transcripts | Active |
 | `sop-from-transcript` | `skills/sop-from-transcript/SKILL.md` | Generate SOPs from video/call transcripts | Placeholder |
+| `linkedin-connection-checker` | `skills/linkedin-connection-checker/SKILL.md` | Check LinkedIn connection status for HubSpot list contacts and update records | Active |
 
 ## Planned Skills
 
@@ -28,3 +29,4 @@ Commands are thin wrappers in `commands/` that invoke skills:
 | `/abm-brief` | `abm-brief` | `/abm-brief [company name]` |
 | `/aeo-report` | `aeo-report` | `/aeo-report [URL or company name]` |
 | `/update-deal` | `update-deal` | `/update-deal [company name]` |
+| `/check-connect` | `linkedin-connection-checker` | `/check-connect [HubSpot list URL]` |
