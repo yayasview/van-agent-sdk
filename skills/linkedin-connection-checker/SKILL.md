@@ -223,6 +223,16 @@ ISSUES
 Summary: [X] connections confirmed and updated. [Y] still pending. [Z] issues flagged.
 ```
 
+### Step 5 — Post report to Slack
+
+After generating the report, send it directly to `#van-growth` (channel ID: `C0ABDUL07BM`) via the Slack MCP (`slack_send_message`).
+
+**Formatting rules for Slack:**
+- Use Slack markdown: `*bold*` (single asterisks), `_italic_`, `` `code` ``
+- Tables are supported — keep the same format as the report above
+- Slack message limit is 5,000 characters for text. If the report exceeds this, split into two messages: (1) summary + newly connected, (2) pending + issues.
+- No need for user review — send directly.
+
 ## Quality Checks
 - Never update a contact's status to anything other than `Connected` — other statuses are informational only
 - Always confirm LinkedIn login status before starting the batch
