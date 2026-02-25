@@ -47,16 +47,84 @@ For each contact with a LinkedIn profile URL to check:
 
 1. **Navigate** to the contact's LinkedIn profile URL in the browser.
 2. **Wait** for the profile page to fully load (look for the profile header/name to appear).
-3. **Identify the connection status** by looking for these indicators on the profile page:
+3. **Identify the connection status** using the JavaScript detection below. This must be run via `mcp__claude-in-chrome__javascript_tool` on each profile page.
 
-   | What to Look For | Means | Status to Record |
-   |------------------|-------|------------------|
-   | **"1st"** badge/icon next to the person's name | First-degree connection — they accepted | `connected` |
-   | **"Message"** button is the primary action (no "Connect" button visible) | Already connected | `connected` |
-   | **"Pending"** label or grayed-out Connect button | Connection request sent, not yet accepted | `pending` |
-   | **"Connect"** button is the primary action | No connection request sent or it was withdrawn | `not_connected` |
-   | **"Follow"** button only (no Connect option) | Profile has connection requests turned off | `follow_only` |
-   | Profile not found / URL broken | LinkedIn URL is invalid | `url_invalid` |
+#### Detection Script
+
+**IMPORTANT:** LinkedIn Premium / Sales Navigator accounts show an InMail "Message" link on ALL profiles regardless of connection status. Do NOT use the presence of a `messaging/compose` link as a connection indicator — it produces 100% false positives. The "Connect" button is also frequently hidden inside the "More" dropdown rather than shown as a primary action.
+
+```js
+(async () => {
+  const mainSection = document.querySelector('main');
+  if (!mainSection) return JSON.stringify({ status: 'check_failed', reason: 'no main section' });
+
+  const title = document.title;
+  const mainText = mainSection.innerText;
+
+  // 1. Profile not found
+  const notFound = mainText.includes("page doesn't exist") ||
+                   mainText.includes('Profile not found');
+  if (notFound) return JSON.stringify({ title, status: 'url_invalid' });
+
+  // 2. Connected — "1st" degree badge in profile header section
+  const profileSection = mainSection.querySelector('section');
+  const profileHeaderText = profileSection ? profileSection.innerText : '';
+  const has1stDegree = profileHeaderText.includes('1st');
+  if (has1stDegree) return JSON.stringify({ title, status: 'connected', has1stDegree: true });
+
+  // 3. Pending — check visible elements first
+  let hasPending = !!Array.from(mainSection.querySelectorAll('button, span, div'))
+    .find(el => el.textContent.trim() === 'Pending');
+
+  // 4. Pending — if not visible, check inside the "More" dropdown
+  //    LinkedIn hides "Pending" in the More menu on some profiles (especially with Sales Navigator)
+  if (!hasPending && profileSection) {
+    const moreBtn = profileSection.querySelector('button[aria-label="More"]');
+    if (moreBtn) {
+      moreBtn.click();
+      await new Promise(r => setTimeout(r, 500));
+      const menuItems = document.querySelectorAll('[role="menuitem"]');
+      hasPending = !!Array.from(menuItems).find(el => el.textContent.trim() === 'Pending');
+      document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+    }
+  }
+
+  if (hasPending) return JSON.stringify({ title, status: 'pending', pendingInDropdown: true });
+
+  // 5. Not connected — visible "Connect" button
+  const hasConnect = !!Array.from(mainSection.querySelectorAll('button'))
+    .find(b => b.textContent.trim() === 'Connect');
+
+  // 6. Follow only — profile has connections turned off
+  const hasFollow = !!Array.from(mainSection.querySelectorAll('button'))
+    .find(b => b.textContent.trim() === 'Follow');
+
+  let status;
+  if (hasConnect) status = 'not_connected';
+  else if (hasFollow) status = 'follow_only';
+  else status = 'check_failed';
+
+  return JSON.stringify({ title, status, hasConnect, hasFollow });
+})()
+```
+
+#### Detection Priority Order
+
+| Priority | Check | Status | How |
+|----------|-------|--------|-----|
+| 1 | Profile not found | `url_invalid` | Page text contains "page doesn't exist" or "Profile not found" |
+| 2 | 1st degree badge | `connected` | First `<section>` in `<main>` contains text "1st" |
+| 3 | Pending (visible) | `pending` | Any `button`, `span`, or `div` in `<main>` with exact text "Pending" |
+| 4 | Pending (dropdown) | `pending` | Click `button[aria-label="More"]` in profile section, check `[role="menuitem"]` for "Pending" |
+| 5 | Connect button | `not_connected` | Any `button` in `<main>` with exact text "Connect" |
+| 6 | Follow button | `follow_only` | Any `button` in `<main>` with exact text "Follow" |
+| 7 | None matched | `check_failed` | Fallback — page loaded but no indicators found |
+
+#### Key Rules
+- **Scope all queries to `document.querySelector('main')`** — avoids false positives from nav bar elements
+- **Never use `a[href*="messaging/compose"]`** — matches InMail on every profile with Premium/Sales Navigator
+- **Always check the "More" dropdown** — LinkedIn hides "Pending" there on ~25% of profiles
+- **The "Connect" button may also be in the dropdown** — but if "Pending" is also there, "Pending" takes priority
 
 4. **Record the result** for each contact:
    - Contact name
