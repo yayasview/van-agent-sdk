@@ -1,2 +1,8 @@
 .DS_Store
 .image_cache/
+
+# Secrets — never commit
+.env
+*.env
+gcp-oauth.keys.json
+tokens.json

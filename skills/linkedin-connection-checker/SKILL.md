@@ -1,11 +1,13 @@
 ---
 name: linkedin-connection-checker
 description: >
-  Check LinkedIn connection status for contacts in a HubSpot list and update
-  HubSpot records accordingly. Uses HubSpot MCP for contact data and browser
-  navigation (Claude in Chrome / computer use) to verify LinkedIn connections.
+  Check LinkedIn connection status for ABM contacts marked as "Pending" in
+  HubSpot and update records when connections are confirmed. Uses a two-step
+  HubSpot query (companies with abm_tier → associated contacts with Pending
+  status) and browser navigation (Claude in Chrome) to verify LinkedIn
+  connections.
   Trigger phrases: "check connections", "check LinkedIn status",
-  "check-connect [URL]", "verify LinkedIn connections for [list]"
+  "check-connect", "verify LinkedIn connections"
 ---
 
 # LinkedIn Connection Checker
@@ -16,30 +18,59 @@ description: >
 - LinkedIn account must be logged in and active in the browser
 
 ## Inputs
-- HubSpot list or segment URL (required) — e.g. `https://app.hubspot.com/contacts/<portalId>/lists/<listId>`
+- No inputs required — the skill uses a two-step HubSpot query with hardcoded filters
 - Dry run flag (optional) — if set, report results without updating HubSpot
 
 ## Workflow
 
-### Step 1 — Parse the HubSpot URL and extract the list
+### Step 1 — Fetch pending ABM contacts from HubSpot
 
-1. Extract the **list ID** (and portal ID if present) from the provided HubSpot URL.
-   - Expected URL patterns:
-     - `https://app.hubspot.com/contacts/<portalId>/lists/<listId>`
-     - `https://app.hubspot.com/contacts/<portalId>/objects/0-1/views/<viewId>`
-   - If the URL doesn't match a recognized pattern, ask the user to confirm the list ID.
-2. Use the HubSpot MCP to retrieve all contacts in the list.
-   - Fetch the following properties for each contact:
-     - `firstname`
-     - `lastname`
-     - `email`
-     - `hs_linkedin_url` (or the custom property storing the LinkedIn profile URL)
-     - `linkedin_connection_status` (the custom property to be updated)
-   - Handle pagination — fetch all contacts, not just the first page.
-3. Filter out contacts that:
-   - Have no LinkedIn profile URL (flag these in the final report as "Missing LinkedIn URL")
-   - Already have `linkedin_connection_status` set to `connected` (skip these — already confirmed)
-4. Log the total count: contacts found, contacts to check, contacts skipped.
+The HubSpot search API can't filter contacts by an associated company's property directly. So this requires a two-step query:
+
+#### Step 1a — Get all ABM company IDs
+
+```
+objectType: "companies"
+filterGroups: [
+  {
+    "filters": [
+      { "propertyName": "abm_tier", "operator": "HAS_PROPERTY" }
+    ]
+  }
+]
+properties: ["name", "abm_tier"]
+limit: 200
+```
+
+Collect all company IDs from the results. Handle pagination if `total` > page size.
+
+#### Step 1b — Get pending contacts associated with those companies
+
+```
+objectType: "contacts"
+filterGroups: [
+  {
+    "filters": [
+      { "propertyName": "linkedin_connection_status", "operator": "EQ", "value": "Pending" }
+    ],
+    "associatedWith": [
+      { "objectType": "companies", "operator": "IN", "objectIds": ["<all company IDs from Step 1a>"] }
+    ]
+  }
+]
+properties: ["firstname", "lastname", "email", "company", "linkedin_profile_url", "linkedin_connection_status", "jobtitle"]
+limit: 200
+```
+
+**Important details:**
+- The `linkedin_connection_status` enum value is `"Pending"` (capital P) — HubSpot is case-sensitive on enum values
+- LinkedIn URLs are stored in `linkedin_profile_url` (NOT `hs_linkedin_url`)
+- The `associatedWith` IN operator accepts all company IDs in a single array
+
+After fetching:
+1. Handle pagination — if `total` exceeds the page size, fetch subsequent pages using `offset`.
+2. Filter out contacts that have no `linkedin_profile_url` — flag these in the final report as "Missing LinkedIn URL".
+3. Log the total count: contacts found, contacts to check, contacts with missing URLs.
 
 ### Step 2 — Check LinkedIn connection status via browser
 
@@ -142,7 +173,7 @@ For each contact with a LinkedIn profile URL to check:
 
 For contacts whose status was detected as `connected`:
 
-1. Use the HubSpot MCP to update the contact's `linkedin_connection_status` property to `connected`.
+1. Use the HubSpot MCP to update the contact's `linkedin_connection_status` property to `Connected` (capital C — matches HubSpot enum).
 2. Log each successful update.
 3. If an update fails, record the failure and continue with the remaining contacts.
 
@@ -157,31 +188,29 @@ Produce a structured report with the following sections:
 ```
 LinkedIn Connection Check Report
 ================================
-List: [List Name / ID]
+Filter: ABM company (abm_tier is known) + LinkedIn Connection Status = "Pending"
 Date: [YYYY-MM-DD]
-Total contacts in list: [N]
+Total contacts matched: [N]
 Contacts checked: [N]
-Contacts skipped (already connected): [N]
 Contacts skipped (no LinkedIn URL): [N]
 
 NEWLY CONNECTED (updated in HubSpot)
 -------------------------------------
-| # | Name            | LinkedIn URL                          | Updated |
-|---|-----------------|---------------------------------------|---------|
-| 1 | Jane Smith      | linkedin.com/in/janesmith             | Yes     |
-| 2 | Mike Johnson    | linkedin.com/in/mikejohnson           | Yes     |
+| # | Name            | Company    | Title                      | Updated |
+|---|-----------------|------------|----------------------------|---------|
+| 1 | Jane Smith      | Acme Corp  | VP Marketing               | Yes     |
 
 PENDING (request sent, not yet accepted)
 -----------------------------------------
-| # | Name            | LinkedIn URL                          |
-|---|-----------------|---------------------------------------|
-| 1 | Sarah Chen      | linkedin.com/in/sarachen              |
+| # | Name            | Company    | Title                      |
+|---|-----------------|------------|----------------------------|
+| 1 | Sarah Chen      | FooCo      | Head of Growth             |
 
 NOT CONNECTED (no request sent)
 --------------------------------
-| # | Name            | LinkedIn URL                          |
-|---|-----------------|---------------------------------------|
-| 1 | Tom Williams    | linkedin.com/in/tomwilliams           |
+| # | Name            | Company    | Title                      |
+|---|-----------------|------------|----------------------------|
+| 1 | Tom Williams    | BarInc     | Director Marketing         |
 
 ISSUES
 -------
@@ -195,30 +224,30 @@ Summary: [X] connections confirmed and updated. [Y] still pending. [Z] issues fl
 ```
 
 ## Quality Checks
-- Never update a contact's status to anything other than `connected` — other statuses are informational only
+- Never update a contact's status to anything other than `Connected` — other statuses are informational only
 - Always confirm LinkedIn login status before starting the batch
 - If more than 25% of checks fail due to page load errors, stop and alert the user — there may be a LinkedIn rate limit or session issue
-- The report must account for every contact in the list — no contact should be silently dropped
-- If the `linkedin_connection_status` property doesn't exist in HubSpot, alert the user and provide instructions to create it as a single-line text property on the Contact object
+- The report must account for every contact returned by the filter — no contact should be silently dropped
+- If the `linkedin_connection_status` property doesn't exist in HubSpot, alert the user and provide instructions to create it
 
-## HubSpot Property Setup
+## HubSpot Property Reference
 
-This skill requires a custom contact property in HubSpot:
+This skill depends on these HubSpot properties:
 
-| Property | Internal Name | Type | Field Type | Options |
-|----------|--------------|------|------------|---------|
-| LinkedIn Connection Status | `linkedin_connection_status` | Enumeration | Radio select | `connected`, `pending`, `not_connected`, `follow_only`, `url_invalid` |
-
-Create this under Settings > Properties > Contact Properties if it doesn't already exist.
+| Object | Property | Internal Name | Type | Values |
+|--------|----------|--------------|------|--------|
+| Company | ABM Tier | `abm_tier` | String | Tier 1, Tier 2, Tier 3 |
+| Contact | LinkedIn Connection Status | `linkedin_connection_status` | Enumeration | `Connected`, `Pending`, `Not Connected`, `Rejected` |
+| Contact | LinkedIn Profile URL | `linkedin_profile_url` | String | Full LinkedIn URL |
 
 ## Claude Code / Claude Cowork Usage
 
 This skill is designed to run in two environments:
 
 **Claude Code (CLI):**
-- Requires computer use or a browser MCP tool to navigate LinkedIn.
-- Run with: `/check-connect [HubSpot list URL]`
-- The agent will handle browser navigation, status detection, and HubSpot updates in sequence.
+- Requires Claude in Chrome MCP or computer use to navigate LinkedIn.
+- Run with: `/check-connect`
+- The agent will query HubSpot for pending ABM contacts, check each via browser, update HubSpot, and deliver a report.
 
 **Claude Cowork (browser-native):**
 - The Claude in Chrome extension handles browser navigation directly.
