@@ -1,3 +1,14 @@
+# Session: 2026-02-19 (ongoing)
+
+## 2026-02-19 05:47 UTC — Gizmo Feedback Protocol
+
+**Yaya confirmed:**
+- **End of day deadline**: 11:59 PM ET (for any feedback scope)
+- **Feedback scope**: Jordan-only (not broader team)
+- **Gizmo's agent ID**: `"main"` — use `sessions_send` with `agentId: "main"` to route messages to Gizmo
+
+---
+
 # Session: 2026-02-19 01:40:04 UTC
 
 - **Session Key**: agent:jordan:main
