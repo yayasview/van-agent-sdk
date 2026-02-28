@@ -1,0 +1,53 @@
+{
+  "company_name": "CapGrow Partners LLC",
+  "website_url": "https://capgrowpartners.com/",
+  "industry": "Real Estate",
+  "overall_score": 75.92592592592594,
+  "risk_level": "Medium",
+  "platform_scores": {
+    "chatgpt": 83.33333333333334,
+    "perplexity": 55.55555555555556,
+    "gemini": 88.88888888888889
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 3,
+      "target_audience": 1,
+      "key_products": 3,
+      "differentiators": 3,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 2,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 3,
+      "target_audience": 1,
+      "key_products": 3,
+      "differentiators": 3,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    }
+  },
+  "key_gaps": [
+    "Differentiators partially captured",
+    "Core offering not well captured",
+    "Key products/features not mentioned",
+    "Target audience not mentioned"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content"
+  ],
+  "generated_at": "2026-02-25T11:46:14.493539"
+}

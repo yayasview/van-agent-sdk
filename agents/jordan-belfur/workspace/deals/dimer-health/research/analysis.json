@@ -1,0 +1,53 @@
+{
+  "company_name": "Dimer Health",
+  "website_url": "https://www.dimerhealth.com/",
+  "industry": "Hospitals and Health Care",
+  "overall_score": 62.96296296296296,
+  "risk_level": "High",
+  "platform_scores": {
+    "chatgpt": 55.55555555555556,
+    "perplexity": 72.22222222222221,
+    "gemini": 61.111111111111114
+  },
+  "dimension_scores": {
+    "chatgpt": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 1,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    },
+    "perplexity": {
+      "core_offering": 2,
+      "target_audience": 1,
+      "key_products": 2,
+      "differentiators": 3,
+      "brand_tone": 2,
+      "factual_accuracy": 3
+    },
+    "gemini": {
+      "core_offering": 1,
+      "target_audience": 1,
+      "key_products": 2,
+      "differentiators": 1,
+      "brand_tone": 3,
+      "factual_accuracy": 3
+    }
+  },
+  "key_gaps": [
+    "Key differentiators not captured",
+    "Target audience not mentioned",
+    "Core offering not well captured",
+    "Key products/features not mentioned"
+  ],
+  "recommendations": [
+    "Strengthen homepage messaging with clear, AI-extractable value proposition statements",
+    "Add explicit 'Who We Serve' section with specific industries and company profiles",
+    "Create dedicated 'Why Us' or comparison pages highlighting unique capabilities",
+    "Implement FAQ schema markup with detailed product/service descriptions",
+    "Improve Core Web Vitals \u2014 AI crawlers favor fast-loading pages",
+    "Add llms.txt file to guide AI crawlers to priority content"
+  ],
+  "generated_at": "2026-02-25T12:32:04.656528"
+}

@@ -58,7 +58,8 @@
 | Pipeline state | `MEMORY.md` → Pipeline State table |
 | Decisions & context | `MEMORY.md` → Key Decisions & Context |
 | People changes | `MEMORY.md` → People & Relationships |
-| Account intel | `knowledge/accounts/tier-1/<account>/` |
+| ABM account intel | `abm/tier-1/<account>/` |
+| Active deal intel | `deals/<company>/` |
 | Lessons learned | `MEMORY.md` → Lessons Learned |
 
 ---

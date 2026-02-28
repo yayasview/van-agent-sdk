@@ -1,0 +1,27 @@
+**Dimer Health is an AI-powered clinical service platform and telehealth provider specializing in transitional care medicine, offering 24/7 personalized recovery support for patients after hospital discharge to prevent readmissions and ensure smooth transitions to home care.[1][2][3][4]**
+
+### What They Do
+Dimer Health provides continuous post-discharge care through personalized recovery plans, round-the-clock medical advice via text, voice, or video, and proactive telehealth services from board-certified doctors, physician assistants, and nurse practitioners.[1][3][4] Their services include chronic condition management (e.g., diabetes, asthma/COPD, heart conditions, hypertension), immediate/urgent care (e.g., allergies, flu, pain relief, minor injuries), and support until full recovery.[4]
+
+### Who They Serve
+They primarily serve individuals needing post-acute care after hospital discharge, including patients with chronic conditions or requiring urgent support, as well as partnering healthcare providers like surgeons and hospitals seeking to reduce readmissions and staff workload.[1][4][5]
+
+### What Makes Them Different
+Dimer stands out with **AI-enabled, proactive 24/7 care** that reaches out to patients (unlike traditional care or general telehealth requiring same-day scheduling), combining clinical expertise with technology for seamless hospital-to-home transitions, specialized recovery focus, and reduced system strain.[2][3][4] A comparison from their site highlights:
+
+| Feature                  | **Dimer Health**          | **Traditional Care** | **Telehealth Companies** |
+|--------------------------|---------------------------|----------------------|--------------------------|
+| Doctors available       | **24/7**                 | Limited hours       | Same-day only           |
+| Initiates contact       | **Reaches out to you**   | Patient must call   | Patient must schedule   |
+| Communication           | Text, voice, video       | In-person/phone     | Video only              |[4]
+
+They won recognition from PHIR Academy for addressing post-discharge care gaps relevant to 2024+ healthcare investments.[1]
+
+### What They Are Known For
+Dimer Health, founded in 2022 in Mendham, New Jersey, is known for its **AI-driven platform eliminating post-discharge care gaps**, preventing readmissions, and pioneering transitional care with $2.95M in angel funding from investors like TechAviv.[1][3] Co-founders include CEO Caroline Hodge (healthcare exec), CPO Sarig Reichart (ex-Wix), and CBO Gidon Coussin (PA in emergency medicine).[2][3]
+
+### What Customers Say
+Healthcare providers praise Dimer for enhancing patient care, reducing workloads, and improving experiences:
+- "Having Dimer Health as part of our team has significantly enhanced the quality of patient care while also relieving our practice staff of a substantial workload." – **Dr. Andrew T. Robinson, MD, FACS**, Overlook Surgical Associates.[4]
+- "Dimer has improved the surgeon and patient experience. The ability to ‘touch’ all the patients I’ve operated on allows me to direct my attention where it is needed most." – **Dr. David Levine, DO**, Orthopedic Surgeon.[4]
+- Additional endorsement from **Dr. Benjamin Taylor, MD**, Garden State Urology (specific quote not detailed).[4] No broad patient reviews appear in available sources.

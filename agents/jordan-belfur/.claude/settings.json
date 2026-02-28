@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "ToolSearch",
+      "Bash(GOG_KEYRING_PASSWORD=*)",
+      "Bash(ls *)",
+      "Bash(cat *)"
+    ]
+  }
+}

@@ -81,7 +81,7 @@ VAN targets marketing-led B2B SaaS companies (200-500 employees) on Webflow, whe
 - Primary motivation is low-cost execution
 - No urgency around AI, AEO, or modernization
 
-For the full ICP scoring model, read `knowledge/icp-framework.md`.
+For the full ICP scoring model, read `library/strategy/icp-framework.md`.
 
 ---
 
@@ -107,7 +107,7 @@ VAN built an internal AI brand tool that compares how a company describes itself
 - Never forget physical mail for Tier 1 accounts
 - All executive outreach must be reviewed by Yaya before sending
 
-For the full messaging framework with persona-specific scripts, read `knowledge/messaging-framework-v1.md`.
+For the full messaging framework with persona-specific scripts, read `library/strategy/messaging-framework-v1.md`.
 
 ---
 
@@ -130,8 +130,8 @@ For the full messaging framework with persona-specific scripts, read `knowledge/
 - ABM Stand-Up: Tue/Thu/Fri 2:30-3:00 PM ET (Yaya + Collin)
 - Stand-up rule: "Move or replace" — every account must show forward motion or get swapped
 
-For the full ABM strategy, read `knowledge/abm-strategy.md`.
-For account data and briefs, read files in `knowledge/accounts/`.
+For the full ABM strategy, read `library/strategy/abm-strategy.md`.
+For account data and briefs, read files in `abm/` (prospects) or `deals/` (active opportunities).
 
 ---
 

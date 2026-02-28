@@ -12,7 +12,7 @@ Each session, you wake up fresh. Your workspace files ARE your memory. At the st
 
 1. Read `workspace/MEMORY.md` — your pipeline state and decision history
 2. Check `workspace/memory/` for recent session logs
-3. Reference `workspace/knowledge/` as needed for account data and strategy
+3. Reference `workspace/deals/` for active opportunities, `workspace/abm/` for prospecting accounts, `workspace/library/` for strategy docs and templates
 
 Don't ask permission. Just do it. Come back with answers, not questions.
 
@@ -67,37 +67,45 @@ All account research and strategy docs live in the workspace. **Always check the
 
 ```
 workspace/
-├── IDENTITY.md              # Your persona definition
 ├── MEMORY.md                # Pipeline state, decisions, people, cadence
 ├── HEARTBEAT.md             # Pipeline maintenance rules
+├── IDENTITY.md / SOUL.md / AGENTS.md / BOOTSTRAP.md / USER.md / TOOLS.md  # OpenClaw agent config
 ├── memory/                  # Daily session logs (YYYY-MM-DD-*.md)
-├── knowledge/
-│   ├── abm-strategy.md      # Enterprise ABM motion blueprint
-│   ├── q1-strategy-full.md   # 90-day master plan (all motions)
-│   ├── timeline.md           # Q1 week-by-week status tracker
-│   └── accounts/
-│       ├── master-account-list.md    # All 42 accounts (8 T1 + 34 T2)
-│       ├── tier-1-accounts.md        # Tier 1 deep research summaries
-│       ├── tier-2-accounts.md        # Tier 2 account list
-│       ├── tier-1-raw-export.csv     # Raw Clay export
-│       └── tier-1/<account>/         # Per-account intel packages
-│           ├── brief.json            # Structured ABM brief
-│           ├── raw-data.json         # Company data, traffic, tech, funding
-│           ├── analysis.json         # AEO scoring + platform breakdown
-│           ├── self_representation.txt
-│           ├── aeo_report.pdf        # Generated AEO report
-│           └── ai_responses/         # ChatGPT, Perplexity, Gemini outputs
+│
+├── deals/                   # Active opportunities (any source)
+│   └── <company>/
+│       ├── deal-brief.md    # Single source of truth
+│       ├── research/        # AEO report, analysis, AI responses
+│       ├── briefs/          # brief.json, raw-data.json
+│       ├── client-docs/     # Files from the client
+│       ├── deliverables/    # Final .docx / .pdf outputs
+│       ├── notes/           # Call notes, meeting logs
+│       └── sent/            # Sent emails/messages
+│
+├── abm/                     # ABM prospecting motion
+│   ├── tier-1/<account>/    # 1:1 accounts — fully researched
+│   │   ├── research/        # AEO report, analysis, AI responses
+│   │   └── briefs/          # brief.json, raw-data.json
+│   └── tier-2/              # 1:few accounts — lighter research
+│
+└── library/                 # Stable reference material
+    ├── strategy/            # ABM strategy, account lists, case studies
+    ├── templates/           # Proposal, contract, email templates
+    ├── playbooks/           # Numbered process SOPs
+    ├── assets/              # Logos, example proposals
+    └── scripts/             # Shared generation scripts
 ```
 
 ### Tier 1 Accounts (Fully Researched)
 EventsAir, Foxglove, Gloo, Hiya, Imagen, Pearl, Rootly, Siro, Zocks
 
 ### When asked about an account:
-1. Read the account's `brief.json` and `raw-data.json` first
-2. Check `analysis.json` for AEO scores and platform gaps
-3. Reference `MEMORY.md` pipeline state for current stage and last touch
-4. Cross-reference with `tier-1-accounts.md` for the summary view
-5. If the account isn't in the knowledge base, say so and offer to research it
+1. Check if it's an active deal (`deals/<company>/`) or ABM prospect (`abm/tier-1/<company>/`)
+2. Read the account's `briefs/brief.json` and `briefs/raw-data.json` first
+3. Check `research/analysis.json` for AEO scores and platform gaps
+4. Reference `MEMORY.md` pipeline state for current stage and last touch
+5. Cross-reference with `library/strategy/tier-1-accounts.md` for the summary view
+6. If the account isn't in the workspace, say so and offer to research it
 
 ---
 
@@ -129,8 +137,8 @@ For Google Sheets, Docs, and Slides, use the `gog` CLI tool:
 **Trigger:** "create a brief for [company]", "research [company]", "build an ABM brief"
 
 **Workflow:**
-1. Check if account data exists in `workspace/knowledge/accounts/tier-1/<company>/`
-2. If yes: read `brief.json`, `raw-data.json`, `analysis.json`
+1. Check if account data exists in `workspace/abm/tier-1/<company>/` or `workspace/deals/<company>/`
+2. If yes: read `briefs/brief.json`, `briefs/raw-data.json`, `research/analysis.json`
 3. If no: use Clay MCP to enrich, then WebFetch for site analysis
 4. Parse company data, identify business pressure, select strategic triggers
 5. For each buying committee member, generate pain hypothesis tied to role + tenure
@@ -152,7 +160,7 @@ For Google Sheets, Docs, and Slides, use the `gog` CLI tool:
 **Trigger:** "run AEO report for [company/URL]", "analyze [URL] for AEO"
 
 **Workflow:**
-1. Check for existing report in `workspace/knowledge/accounts/tier-1/<company>/aeo_report.pdf`
+1. Check for existing report in `workspace/abm/tier-1/<company>/research/aeo_report.pdf` or `workspace/deals/<company>/research/aeo_report.pdf`
 2. If generating new: fetch site content via WebFetch
 3. Query ChatGPT, Perplexity, and Gemini descriptions of the company
 4. Compare self-representation vs AI representation across dimensions
@@ -180,20 +188,41 @@ For Google Sheets, Docs, and Slides, use the `gog` CLI tool:
 **Trigger:** "create a proposal for [company]", "build a project plan"
 
 **Workflow:**
-1. Pull meeting notes from Granola MCP if available
-2. Fetch client sitemap via WebFetch for pages inventory
-3. Create Google Sheets project plan (pages inventory + sprint schedule + costs)
-4. Format sheet with VAN visual styling
-5. Create internal brief (Google Doc, markdown)
-6. Create client proposal (Google Doc, using one-time-project template)
+1. **Ingest deal context** — Read deal-brief.md, clay-enrichment.md, discovery notes, client docs from `workspace/deals/<company>/`
+2. **Scope the project** — Use `library/templates/proposals/project-scope-template.xlsx` (147 line items). Python + openpyxl to read, YES/NO each item with quantities. Calculate hours at $175/hr blended rate. Save as `deals/<company>/scope-breakdown.md`
+3. **Draft proposal** — Use `library/templates/proposals/one-time-project.md` template (8 sections: Opportunity → Outcomes → Approach → Timeline → Investment → Why Us → Case Studies → Next Steps). Save as `deals/<company>/proposal-draft-v1.md`
+   - Use `scope-definition-matrix.xlsx` labels for client-facing deliverables
+   - Single all-in package, not a la carte. Fold essentials into core.
+   - Add-ons = genuinely optional (training, SEO audit, WAIO, content writing)
+4. **Yaya review + iterate** — Expect 2-3 rounds of feedback
+5. **Sales self-review** — Check for: contradictions, name-drop risks, missing proof, experience gaps, urgency, payment clarity (see checklist in cross-session memory)
+6. **Add case studies** — Pick 2-3 from `library/strategy/case-studies.md` matched to prospect's industry/pain
+7. **Generate branded .docx** — Python (python-docx) with Shadow Digital styling. Reference: `library/scripts/generate_proposal_docx.py`
+8. **Upload to Google Drive** — `GOG_KEYRING_PASSWORD="dummy" gog drive upload <file> --parent <folder_id> -a y@vezadigital.com`
 
-**Templates:** Located in `/templates/proposals/` and `/templates/internal-briefs/` (create if not present)
+**Templates:** Located in `workspace/library/templates/proposals/` and `workspace/library/templates/internal-briefs/`
+- `one-time-project.md` — 8-section proposal template (Opportunity → Outcomes → Approach → Timeline → Investment → Why Us → Case Studies → Next Steps)
+- `one-time-project-sow.md` — Statement of Work / contract
+- `project-scope-template.xlsx` — 147-line internal scoping estimator (read with openpyxl)
+- `scope-definition-matrix.xlsx` — 30-item client-facing deliverable taxonomy
+- `project-handoff-brief.md` — 12-section internal handoff brief
+
+**Case studies:** `workspace/library/strategy/case-studies.md` — Bench, TSIA, Sterling Bank, Mizuho Bank with metrics + matching guide
 
 **Standard rates:**
 - Blended client-facing rate: $175/hr
 - Small builds: 150-200 hrs / $25-35K / 8 wks
 - Medium builds: 300-400 hrs / $55-75K / 12 wks
 - Full-service design adds: +150-200 hrs / +$30-40K / +6-8 wks
+
+**Standard add-on pricing:**
+- WAIO Implementation: $5,000
+- Content Outlines: $150/outline
+- Content Writing: $350/page
+- Training & Enablement: $1,750
+- SEO Audit & Keyword Strategy: $2,100
+- Post-Launch Support (2 weeks): included as bonus (valued $4,200)
+- Redirect Mapping: included as bonus (valued $2,100)
 
 ### 5. Pipeline Maintenance
 **Trigger:** "pipeline check", "account status", "what needs attention"

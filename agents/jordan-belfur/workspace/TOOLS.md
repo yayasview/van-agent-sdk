@@ -93,13 +93,14 @@ Skills live in the shared skill library at the repo root. When you need a skill,
 
 ## Knowledge Directory
 
-Deep-dive strategy docs and account data live in `knowledge/`:
+Deep-dive strategy docs live in `library/strategy/`, account data in `abm/` and `deals/`:
 
 | File | What's in it |
 |------|-------------|
-| `knowledge/q1-strategy-full.md` | Full Q1 2026 strategy document |
-| `knowledge/abm-strategy.md` | ABM strategy and engagement playbooks |
-| `knowledge/icp-framework.md` | ICP criteria and scoring model |
-| `knowledge/messaging-framework-v1.md` | Persona messaging, objection handling, outreach templates |
-| `knowledge/timeline.md` | Project timeline and milestones |
-| `knowledge/accounts/` | Account data — Tier 1 briefs, AEO reports, AI responses, raw data |
+| `library/strategy/q1-strategy-full.md` | Full Q1 2026 strategy document |
+| `library/strategy/abm-strategy.md` | ABM strategy and engagement playbooks |
+| `library/strategy/icp-framework.md` | ICP criteria and scoring model |
+| `library/strategy/messaging-framework-v1.md` | Persona messaging, objection handling, outreach templates |
+| `library/strategy/timeline.md` | Project timeline and milestones |
+| `abm/` | ABM account data — Tier 1/2 briefs, AEO reports, AI responses, raw data |
+| `deals/` | Active deal packages — briefs, proposals, deliverables, client docs |

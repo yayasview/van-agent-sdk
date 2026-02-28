@@ -1,0 +1,15 @@
+**OpenCorporates is an open database of companies that aggregates and unifies company data from official registers worldwide, including over 50 US state-level registries (with Illinois forthcoming), enabling unified searches across jurisdictions without manual checks per state.[1]**
+
+### What They Do
+OpenCorporates collects company data from disparate sources, standardizes it according to a unified schema, and makes it searchable in one place, addressing the lack of a centralized US company database where registrations occur at state, District of Columbia, and territory levels with inconsistent data structures and access methods.[1]
+
+### Who They Serve
+They serve researchers, businesses, and users needing quick company searches across the US (or 140+ global jurisdictions), as well as those requiring bulk data or API access for automated workflows, data analytics, or large-scale company population analysis.[1]
+
+### What Makes Them Different
+Unlike siloed state registries requiring manual multi-state searches, OpenCorporates provides a single, searchable view of nearly all US companies plus global data, with structured bulk options via API—eliminating the need to navigate over 50 inconsistent US registries individually.[1]
+
+### What They Are Known For
+OpenCorporates is known for its comprehensive unification of official US company registers (excluding only Illinois at the time of the source) and global coverage, simplifying access to company connections and details that are otherwise fragmented.[1]
+
+No customer reviews or testimonials appear in the available search results, so direct user feedback is unavailable here.[1]
